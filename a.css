@@ -34,7 +34,27 @@ margin: 0em -.3em ;line-height: 0;
 .dnward span {position: relative; top:-1.2em;}
 .dnw2 a{margin-bottom: 0em;}
 }
-
-
 .dnward p {margin: -.5em auto -.2em;}
 .dnward div {margin-bottom: -1em!important;}
+
+.pdnw {text-align: center; margin: 3em auto -1.5em;}
+.pdnw a {
+ text-decoration: none;
+ color: #444;
+ border-left: 1px solid #444;
+ border-bottom: 1px solid #444;
+ border-right: 1px solid #444;
+ display: inline-block;
+ line-height: 1.7em;
+ font-size: 1.5em;
+ margin: auto .7em auto .5em; 
+ padding: 0em .5em;
+}
+.dnward strong, .pdnw strong, .bigf {font-size: 2.5em;}
+
+
+
+
+
+
+
