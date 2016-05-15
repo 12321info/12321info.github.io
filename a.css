@@ -1,0 +1,34 @@
+﻿.dnward {margin-top: 2em; text-align: center;}
+@media screen and (min-width:500px) {
+.dnward a {
+ text-decoration: none;
+ color: #ffffff;
+/*background-color: transparent;*/
+ display: inline-block;
+ height: 0;
+/*line-height: 0;*/
+ box-shadow: 0 -3px 0 rgba(68,68,68,1);
+ border-top: 2em solid #909090;
+ border-left: .5em solid transparent;
+ border-right: .5em solid transparent;
+ font-size: 2em;
+ margin: .5em -.2em;
+ padding: .1em .5em;
+}
+} @media screen and (max-width:499px) {
+.dnward a{
+font-size: 1.2em;
+margin: 0em -.3em;line-height: 0;
+}
+}
+.dnw2 a {
+ font-size: 1.2em;
+ color: #fff !important;
+ margin-bottom: .4em;
+}
+.mobile .dnw2 a{margin-bottom: 0em;}
+
+.dnward span {position: relative; top:-1.75em;}
+.mobile .dnward span {position: relative; top:-1.2em;}
+.dnward p {margin: -.5em auto -.2em;}
+.dnward div {margin-bottom: -1em!important;}
