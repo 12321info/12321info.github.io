@@ -12,13 +12,13 @@
 }
 @media (min-width:500px) {
 .dnward a {
- font-size: 1em;
+ font-size: 2em;
  margin: .5em -.2em;
 }
 }
-@media (max-width:499px) {
+@media (max-width:499px) {/*mob*/
 .dnward a {
-font-size: 4.2em;
+font-size: 1.2em;
 margin: 0em -.3em;line-height: 0;
 }
 }
