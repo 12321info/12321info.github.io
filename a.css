@@ -1,4 +1,9 @@
-﻿.dnward {text-align: center;}
+﻿* {
+font-family: 'meiryo', 'メイリオ', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', sans-serif !important;
+letter-spacing: -.1em;
+font-weight: bold;
+}
+.dnward {text-align: center;}
 .dnward a {
  text-decoration: none;
  color: #ffffff;
