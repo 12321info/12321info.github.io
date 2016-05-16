@@ -1,5 +1,6 @@
 ﻿{alert("oh0e");
-var elem = document.getElementById("test");
+/*var elem = document.getElementById("test");*/
+var elem = document.querySelector('test');
 alert("oh1日");
 /*elem.innerHTML="000";*/
 alert("oh2");
