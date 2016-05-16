@@ -17,6 +17,9 @@ var html="<b>BOLD</b>";
 var position="afterbegin";
 alert("oh3");
 
+for(i=0;i<10;i++){
+document.getElementById('ul02').insertAdjacentHTML('beforeend','ffff');
+};
 
 $(function(){
 var list = '';
@@ -33,9 +36,9 @@ for(i=0;i<10;i++){document.getElementById('ul01').innerHTML = list;};
 break;
 case 'bt02':
 var startTime = new Date();
-for(i=0;i<10;i++){
+/*for(i=0;i<10;i++){
 document.getElementById('ul02').insertAdjacentHTML('beforeend',list);
-};
+};*/
 break;
 case 'bt03':
 for(i=0;i<10;i++){
