@@ -1,4 +1,4 @@
-﻿alert("oh0e");
+﻿alert("oh0f");
 /*var elem = document.getElementById("test");*/
 var elem = document.querySelector('test');
 alert("oh1日");
@@ -20,36 +20,32 @@ alert("oh3");
 
 $(function(){
 var list = '';
-	$('button').on('click',function(){
-		var startTime = new Date();
-		list = '<li>list</li>';
-		
-		switch($(this).prop('id')){
-			case 'bt00':
-				for(i=0;i<10;i++){
-					list += '<li>list</li>';
-				};
-document.getElementById('ul00').innerHTML = list;					break;
-			case 'bt01':
-				for(i=0;i<10;i++){
-document.getElementById('ul01').innerHTML = list;					};
-				break;
-			case 'bt02':
-				var startTime = new Date();
-				for(i=0;i<10;i++){
-					document.getElementById('ul02').insertAdjacentHTML('beforeend',list);					
-				};
-				break;
-			case 'bt03':
-				for(i=0;i<10;i++){
-					$('#ul03').append(list);
-				};
-				break;				
-		};
-		var endTime = new Date();
-		console.log(endTime - startTime + "ms");
-	});
-
+$('button').on('click',function(){
+var startTime = new Date();
+list = '<li>list</li>';
+switch($(this).prop('id')){
+case 'bt00':
+for(i=0;i<10;i++){list += '<li>list</li>';};
+document.getElementById('ul00').innerHTML = list;
+break;
+case 'bt01':
+for(i=0;i<10;i++){document.getElementById('ul01').innerHTML = list;};
+break;
+case 'bt02':
+var startTime = new Date();
+for(i=0;i<10;i++){
+document.getElementById('ul02').insertAdjacentHTML('beforeend',list);
+};
+break;
+case 'bt03':
+for(i=0;i<10;i++){
+$('#ul03').append(list);
+};
+break;				
+};
+var endTime = new Date();
+console.log(endTime - startTime + "ms");
+});
 })
 
 
