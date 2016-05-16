@@ -14,13 +14,14 @@ if (navigator.userAgent.indexOf(osVer)>0){
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
+alert("oh3");
 elem.insertAdjacentHTML(position, html);
 
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
 
-alert("oh3");
+alert("oh4");
 
 var sp1 = document.createElement("span");
 sp1.setAttribute("id", "newSpan");
@@ -29,4 +30,5 @@ sp1.appendChild(sp1_content);
 var sp2 = document.getElementById("test");
 var parentDiv = sp2.parentNode;
 // 新しい要素をDOMに sp2 の前に追加します。
-parentDiv.insertBefore(sp1, sp2);}
+parentDiv.insertBefore(sp1, sp2);
+}
