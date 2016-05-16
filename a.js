@@ -1,4 +1,4 @@
-﻿alert("oh0f");
+﻿alert("oh0g");
 /*var elem = document.getElementById("test");*/
 var elem = document.querySelector('test');
 alert("oh1日");
