@@ -2,6 +2,7 @@
 document.write("<p>テスト</p>");
 alert("oh0");
 var ell=document.getElementById("to-top1");
+ell.innerHTML = "<p>aaaaa</p>";
 alert(ell);
 var el=document.getElementsByClassName("color1");
 el.style.transition="opacity 5s";
