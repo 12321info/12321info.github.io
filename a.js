@@ -13,6 +13,9 @@ if (navigator.userAgent.indexOf(osVer)>0){
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
+elem.insertAdjacentHTML(position, html);
+elem.style.transition = 'opacity 5s';
+elem.style.opacity = '0.15';
 
 (function(){
 var list = '<li>list</li>';
@@ -20,8 +23,6 @@ for(i=0;i<10;i++){
 document.getElementById('test').insertAdjacentHTML('beforeend',list);
 }
 })();
-
-/*elem.insertAdjacentHTML(position, html);*/
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
