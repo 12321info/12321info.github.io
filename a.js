@@ -1,4 +1,4 @@
-﻿alert("oh0d");
+﻿{alert("oh0d");
 var elem = document.getElementById("test");
 alert("oh1日");
 /*elem.innerHTML="000";*/
@@ -7,8 +7,8 @@ alert("oh2");
 /*var newtext = document.createTextNode(”てきす”);
 elem.appendChild(newtext);*/
 
-var html = '<b>BOLD</b>';
-var position = 'afterbegin';
+var html="<b>BOLD</b>";
+var position="afterbegin";
 elem.insertAdjacentHTML(position, html);
 
 
@@ -24,4 +24,4 @@ sp1.appendChild(sp1_content);
 var sp2 = document.getElementById("test");
 var parentDiv = sp2.parentNode;
 // 新しい要素をDOMに sp2 の前に追加します。
-parentDiv.insertBefore(sp1, sp2);
+parentDiv.insertBefore(sp1, sp2);}
