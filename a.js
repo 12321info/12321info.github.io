@@ -1,4 +1,4 @@
-﻿{alert("oh0d");
+﻿{alert("oh0e");
 var elem = document.getElementById("test");
 alert("oh1日");
 /*elem.innerHTML="000";*/
@@ -6,6 +6,11 @@ alert("oh2");
 
 /*var newtext = document.createTextNode(”てきす”);
 elem.appendChild(newtext);*/
+
+var osVer = "iPhone";
+if (navigator.userAgent.indexOf(osVer)>0){
+    alert(osVer);
+}
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
