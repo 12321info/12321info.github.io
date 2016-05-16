@@ -1,7 +1,7 @@
-﻿alert("oh0b");
+﻿alert("oh0c");
 var elem = document.getElementById("test");
 alert("oh1日");
-elem.innerHTML="000";
+/*elem.innerHTML="000";*/
 alert("oh2");
 var html = '<b>BOLD</b>';
 var position = 'afterbegin';
