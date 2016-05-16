@@ -1,4 +1,7 @@
 ﻿function (){
+    var elem = document.getElementById("test");
+    elem.innerHTML = "あああ";
+
 document.write("<p>テスト</p>");
 alert("oh0");
 var ell=document.getElementById("to-top1");
