@@ -1,9 +1,7 @@
-﻿alert("oh0g");
+﻿alert("oh0h");
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
-alert("oh1日");
 /*elem.innerHTML="000";*/
-alert("oh2");
 
 /*var newtext = document.createTextNode(”てきす”);
 elem.appendChild(newtext);*/
@@ -15,16 +13,15 @@ if (navigator.userAgent.indexOf(osVer)>0){
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
-alert("oh3");
 
 (function(){
+var list = '<li>list</li>';
 for(i=0;i<10;i++){
-document.getElementById('test').insertAdjacentHTML('beforeend','ffff');
+document.getElementById('test').insertAdjacentHTML('beforeend',list);
 }
 })();
 
 /*elem.insertAdjacentHTML(position, html);*/
-
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
