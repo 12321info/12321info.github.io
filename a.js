@@ -1,7 +1,8 @@
-﻿alert("oh0a");
+﻿alert("oh0b");
 var elem = document.getElementById("test");
+alert("oh1");
 elem.innerHTML = "調整中です000";
-
+alert("oh2");
 var html = '<b>BOLD</b>';
 var position = 'afterbegin';
 elem.insertAdjacentHTML(position, html);
@@ -10,7 +11,7 @@ elem.insertAdjacentHTML(position, html);
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
 
-alert("oh1a");
+alert("oh3");
 
 var sp1 = document.createElement("span");
 sp1.setAttribute("id", "newSpan");
