@@ -1,11 +1,11 @@
-﻿alert("oh0c");
+﻿alert("oh0d");
 var elem = document.getElementById("test");
 alert("oh1日");
 /*elem.innerHTML="000";*/
 alert("oh2");
 
-  var newtext = document.createTextNode(”てきす”),
-  elem.appendChild(newtext);
+var newtext = document.createTextNode(”てきす”);
+elem.appendChild(newtext);
 
 var html = '<b>BOLD</b>';
 var position = 'afterbegin';
