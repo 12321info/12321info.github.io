@@ -1,7 +1,7 @@
 ﻿alert("oh0b");
 var elem = document.getElementById("test");
-alert("oh1");
-elem.innerHTML = "調整中です000";
+alert("oh1日");
+elem.innerHTML="000";
 alert("oh2");
 var html = '<b>BOLD</b>';
 var position = 'afterbegin';
