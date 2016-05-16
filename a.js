@@ -1,4 +1,4 @@
-﻿alert("oh0h");
+﻿//alert("oh0h");
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
@@ -8,7 +8,7 @@ elem.appendChild(newtext);*/
 
 var osVer = "iPhone";
 if (navigator.userAgent.indexOf(osVer)>0){
-    alert(osVer);
+//alert(osVer);
 }
 
 var html="<b>BOLD</b>";
@@ -26,7 +26,7 @@ document.getElementById('test').insertAdjacentHTML('beforeend',list);
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
 
-alert("oh4");
+//alert("oh4");
 /*
 var sp1 = document.createElement("span");
 sp1.setAttribute("id", "newSpan");
@@ -36,6 +36,4 @@ var sp2 = document.getElementById("test");
 var parentDiv = sp2.parentNode;
 // 新しい要素をDOMに sp2 の前に追加します。
 parentDiv.insertBefore(sp1, sp2);*/
-
-
 
