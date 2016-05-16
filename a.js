@@ -1,7 +1,6 @@
-﻿    $(function(){
-     $("#bodyinfo").css({"background":"#ffffff","text-align":"center","margin":"1em 0"}).html("<span>= タップ（クリック）だけで検索（写真・詳細確認）できます =</span>");
+﻿var el=document.getElementsByClassName('color1');
+el.style.transition = 'opacity 5s';
+el.style.opacity = '0';
+el=document.getElementsByTagName('body')[0];
 
-     $(".pkwtginfo").css({"background":"#ffffff","font-size":".8em","text-align":"center","margin":"-.5em 0"}).html("<span>= タップorクリックできます =</span>");
-
-     $('.adlabel').text("スポンサーリンク");
-    });//#topinfo&lt&gt
+el.parentNode.insertAdjacentHTML("afterbegin","<div id='editing'>調整中です</div>");
