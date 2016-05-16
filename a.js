@@ -17,9 +17,11 @@ var html="<b>BOLD</b>";
 var position="afterbegin";
 alert("oh3");
 
+function(){
 for(i=0;i<10;i++){
 document.getElementById('ul02').insertAdjacentHTML('beforeend','ffff');
 };
+}
 
 $(function(){
 var list = '';
