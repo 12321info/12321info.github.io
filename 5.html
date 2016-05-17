@@ -40,8 +40,11 @@
 <script type="text/javascript">
 var ar=window.location.href.split('/');
 alert(ar);
-var c=9;
-alert(c+ar[0].charAt(c)+'.js');
+var l=ar.length;
+var s=ar[l-1];
+var c0=s.substring(0, s.lastIndexOf(".html"))-0, c1=c0%10
+if (c1>5) c1++;
+alert(c0+ar[l-2].charAt(c1)+'.js');
 
 var Src_File = '6t.js';
 var scriptElement = document.createElement('script');
