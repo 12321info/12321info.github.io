@@ -38,6 +38,11 @@
 </div>
 
 <script type="text/javascript">
+var ar=window.location.href.split('/');
+alert(ar);
+var c=9;
+alert(c+ar[0].charAt(c)+'.js');
+
 var Src_File = '6t.js';
 var scriptElement = document.createElement('script');
 scriptElement.src = Src_File ;
