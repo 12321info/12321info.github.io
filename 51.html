@@ -41,11 +41,6 @@
 
 <script type="text/javascript">
 
-/*var c=11;
-var alf='abcdefghijklmnopqrstuvwxyz';
-c=c<10?:alf.charAt(c-10);
-alert(c);*/
-
 var ar=window.location.href.split('/');
 alert(ar);
 var l=ar.length;
@@ -58,6 +53,12 @@ var Src_File = c0+ar[l-2].charAt(c1)+'.js';
 var scriptElement = document.createElement('script');
 scriptElement.src = Src_File ;
 document.getElementsByTagName('head')[0].appendChild (scriptElement);
+
+var c=11;
+var alf='abcdefghijklmnopqrstuvwxyz';
+c=c<10?c:alf.charAt(c-10);
+alert(c);
+
 </script>
 
 (c)2015-2016 How20XX All Rights Reserved.
