@@ -25,13 +25,17 @@ font-weight: bold;
  font-size: 2em;
  margin: .5em -.2em;
 }
+.dnward span {letter-spacing: .1em;}
 }
 @media (max-width:499px) {/*mob*/
 .dnward a {
 font-size: 1em;
 margin: 0em -.3em ;line-height: 0;
 }
-.dnward span {position: relative; top:-1.2em;}
+.dnward span {
+position: relative; top:-1.2em;
+letter-spacing: initial;
+}
 .dnw2 a{margin-bottom: 0em;}
 }
 .dnward p {margin: -.5em auto -.2em;}
@@ -52,8 +56,14 @@ margin: 0em -.3em ;line-height: 0;
 }
 .dnward strong, .pdnw strong, .bigf {font-size: 2.5em;}
 
+.btn a {color:#fff;background-color:#999;border-radius:.4rem; padding:.1rem .4rem;}
 
-
+/*
+.lh05 {line-height: 2.5em !important;}
+.btnR {color: #fff !important;background-color: #999;border-radius: 1.5rem;padding-right: .4rem;}
+.lsp01 {letter-spacing: .1em !important;}
+.lsp03 {letter-spacing: .3em !important;}
+/*.mobile .lsp03 {letter-spacing: .1em !important;}*/
 
 
 
