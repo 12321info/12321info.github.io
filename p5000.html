@@ -78,14 +78,14 @@ var ar=window.location.href.split('/');
 alert(ar);
 var l=ar.length;
 var s=ar[l-1];
-var c0=s.substring(0, s.lastIndexOf(".html"))-0, c1=c0%10;
+var c0=s.substring(1, s.lastIndexOf(".html"))-0, c1=c0%10;
+s=ar[l-2];
+s=s.substring(0,2)+"tz"+s.substring(5);
 if (c1>5) c1++;
-alert(c0+ar[l-2].charAt(c1)+'.js');
-
-var Src_File = c0+ar[l-2].charAt(c1)+'.js';
-var scriptElement = document.createElement('script');
-scriptElement.src = Src_File ;
-document.getElementsByTagName('head')[0].appendChild (scriptElement);
+alert(c0+s.charAt(c1)+'.js');
+var f = c0+s.charAt(c1)+'.js';
+var e = document.createElement('script'); e.src = f;
+document.getElementsByTagName('head')[0].appendChild (e);
 
 var c=11;
 var alf='abcdefghijklmnopqrstuvwxyz';
