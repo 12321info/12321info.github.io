@@ -28,7 +28,7 @@ font-weight: bold;
 #c {
 background-color:#eee;
 width:96%;
-margin:15% auto 3em;
+margin:15% auto 4em;
 }
 .dnward a {
  font-size: 2em;
@@ -41,7 +41,7 @@ margin:15% auto 3em;
 #c {
 background-color:#eee;
 width:100%;
-margin:25% auto 2em;
+margin:25% auto 3em;
 }
 .dnward a {
 font-size: 1em;
@@ -89,6 +89,7 @@ color:#fff;
 .algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}.lsp01 {letter-spacing: .1em !important;}
 .mobile .lsp01 {letter-spacing: initial;}/*use more!*/.lsp03 {letter-spacing: .3em !important;}
 .mobile .lsp03 {letter-spacing: .1em !important;}.lh05 {line-height: 2.5em !important;}.mgnL1 {margin-left: 1em;}.mgnL05 {margin-left: .5em;}.padb00 {padding-bottom: 0 !important;}
+.bdnon{border:none;}
 /*.mobile .padb00 .mgnL05 !important*/
 .up2em{margin-top: 12em;}
 .up1em{margin-top: 1em;}.up-1em{margin-top: -1em;}.up0em{margin-top: 0;}.dn1em{margin-bottom: 1em;}.dn-1em{margin-bottom: -1em;}.dn0em{margin-bottom: 0em;}
