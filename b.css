@@ -87,7 +87,7 @@ color:#fff;
 }
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .color1 {color:#0ff;text-decoration: none;}
-.ipt{border:none;background-color:#eee;font}
+.ipt{border:none;background-color:#eee;}
 
 .algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}.lsp01 {letter-spacing: .1em !important;}
 .mobile .lsp01 {letter-spacing: initial;}/*use more!*/.lsp03 {letter-spacing: .3em !important;}
