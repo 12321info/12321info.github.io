@@ -65,7 +65,9 @@ margin:20% auto 10%;
 }
 .sbt{
 background-color:#999;
-color:#fff;border:none;
+color:#fff;
+border:none;
+height:1.5em;
 text-align:center;
 }
 .sbt:hover{
