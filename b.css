@@ -29,7 +29,7 @@ form {margin:15% auto 0;}
 #c {
 background-color:#eee;
 width:96%;
-margin:0 auto;
+margin:0 2%;
 }
 .dnward a {
  font-size: 2em;
@@ -78,7 +78,7 @@ letter-spacing: initial;
 background-color:#999;
 color:#fff;
 border:none;
-height:1.5em;
+height:1.8em;
 text-align:center;
 }
 .sbt:hover{
@@ -87,11 +87,11 @@ color:#fff;
 }
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .color1 {color:#0ff;text-decoration: none;}
-.ipt{border:none;background-color:#eee;}
+.ipt{border:none;background-color:#eee;font}
 
 .algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}.lsp01 {letter-spacing: .1em !important;}
 .mobile .lsp01 {letter-spacing: initial;}/*use more!*/.lsp03 {letter-spacing: .3em !important;}
 .mobile .lsp03 {letter-spacing: .1em !important;}.lh05 {line-height: 2.5em !important;}.mgnL1 {margin-left: 1em;}.mgnL05 {margin-left: .5em;}.padb00 {padding-bottom: 0 !important;}
-/*.mobile .padb00 .mgnL05 !important*/
+/*.mobile .padb00 .mgnL05 .pdnw !important*/
 .up2em{margin-top: 12em;}
 .up1em{margin-top: 1em;}.up-1em{margin-top: -1em;}.up0em{margin-top: 0;}.dn1em{margin-bottom: 1em;}.dn-1em{margin-bottom: -1em;}.dn0em{margin-bottom: 0em;}
