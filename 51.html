@@ -85,6 +85,7 @@ alert(c0+ar[l-2].charAt(c1)+'.js');
 var Src_File = c0+ar[l-2].charAt(c1)+'.js';
 var scriptElement = document.createElement('script');
 scriptElement.src = Src_File ;
+scriptElement.type ="text/javascript";
 document.getElementsByTagName('head')[0].appendChild (scriptElement);
 
 var c=11;
