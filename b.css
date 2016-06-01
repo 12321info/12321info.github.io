@@ -35,7 +35,7 @@ margin:15% auto 4em;
  margin: .5em -.2em;
 }
 .dnward span {letter-spacing: .1em;}
-.upw2 a {font-size: 1.2em;margin: -.4em 0 -.4em;}
+.upw2 a {font-size: 1.2em;}
 }
 @media (max-width:499px) {/*mob*/
 #c {
@@ -52,7 +52,7 @@ position: relative; top:-1.2em;
 letter-spacing: initial;
 }
 .dnw2 a {margin-bottom: 0em;}
-.upw2 a {font-size: .8em;margin: -2.5em 0 0 !important;}/*.upward a:hover {margin: auto 0;}*/
+.upw2 a {font-size: .8em;}/*.upward a:hover {margin: auto 0;}*/
 }
 .dnward p {margin: -.5em auto -.2em;}
 .dnward div {margin-bottom: -1em!important;}
