@@ -50,7 +50,7 @@ alert(ar[0]);
 
 s0+="<div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class='dnward dnw2'>";
 alert(s0);
-/*
+
 var r=window.location.href.split('/');
 l=r.length;
 var s1=r[l-1];
@@ -68,7 +68,7 @@ l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+".html'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
-alert("6h");*/
+alert("6h");
 
 }
 
