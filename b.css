@@ -36,9 +36,9 @@ margin:0 2%;
 .dnward span {letter-spacing: .1em;}
 .upw2 a {font-size: 1.2em;}
 .dnxem{margin-bottom: 1em;}
+.flrx {font-size: 2em;}
 .lsp01 {letter-spacing: .1em;}
 .lsp03 {letter-spacing: .3em;}
-.flrx {font-size: larger;}
 }
 @media (max-width:499px) {/*mob*/
 form {margin:25% auto 0;}
@@ -57,13 +57,10 @@ letter-spacing: initial;
 .dnw2 a {margin-bottom: 0em;}
 .upw2 a {font-size: .8em;}/*.upward a:hover {margin: auto 0;}*/
 .dnxem{margin-bottom: .8em;}
+.flrx {font-size: normal;}
 .lsp01 {letter-spacing: initial;}/*use more!*/
 .lsp03 {letter-spacing: .1em;}
-.flrx {font-size: normal;}
 }
-
-.dnward p {margin: -.5em auto -.2em;}
-.dnward div {margin-bottom: -1em!important;}
 
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .c0 {color:#666;}
