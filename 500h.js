@@ -1,4 +1,4 @@
-alert("51111111oh0h");
+alert("5");
 //var osVer = "iPhone"; if (navigator.userAgent.indexOf(osVer)>0){alert(osVer);}
 /*elem.style.transition = 'opacity 5s';
 elem.style.opacity = '0.15';*/
@@ -39,15 +39,18 @@ if(ar[1].length>2) {//末端
 var f=ar[1][3]-0;
 l=ar.length-1-f;
 s0+="<div class='algnC dn1em lh25 btn'>";
+var i0=0;
 for(n=0;n<l;n++){
 s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a> ";
 }
+alert("n-"+n);
+alert("i0-"+i0);
+
 if (f>0) {//代表有り
-alert(f);
 s0+="</div><div class='algnC dn1em lh25 btn'><span class='lsp03 xbd'>代表：</span>";
 for(n=0;n<f;n++){
-alert(n);
+alert("n-"+n);
 s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&tbm=nws'>"+ar[n+1+l][0]+"</a> ";
 }
@@ -74,5 +77,4 @@ l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+".html'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
-alert("6h");
 }
