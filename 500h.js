@@ -10,6 +10,7 @@ var osVer = "iPhone";
 if (navigator.userAgent.indexOf(osVer)>0){
 //alert(osVer);
 }
+console.log("ddd");
 
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["テレビ","aa"],
@@ -29,7 +30,11 @@ var s0="",s=""; var l=0;
 var o=document.getElementsById('c');
 
 if(ar[1].length>2) {//末端
+console.log(ar[1]);
+
 } else {//枝
+console.log(ar[0]);
+
 s0+="div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class="dnward dnw2">";
 var r=window.location.href.split('/');
 console.log(r);
