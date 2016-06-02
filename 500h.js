@@ -25,10 +25,9 @@ elem.insertAdjacentHTML('beforeend',list);
 })();
 
 
-alert("0h");
+alert("10h");
 
-var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
-["テレビ","aa"],
+var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],["テレビ","aa"],
 ["視聴端末","aa"],
 ["録画機","aa"],
 ["ゲーム機","aa"],
@@ -40,10 +39,11 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa"],
 ["（次）オーディオ","aa"]];
-
+alert("1h");
 var s0="",s=""; var l=0;
+alert("2h");
 var o=document.getElementsById('c');
-
+alert("3h");
 if(ar[1].length>2) {//末端
 alert(ar[1]);
 
