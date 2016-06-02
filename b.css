@@ -21,7 +21,7 @@ font-weight: bold;
  border-left: .5em solid transparent;border-right: .5em solid transparent;
  font-size: 2em;margin: .5em -1em;padding: .1em .5em;
 }
-.btn a {white-space:nowrap;text-decoration: none;color:#fff;background-color:#999;border-radius:.4rem; padding:.1rem .4rem;}
+.btn a {white-space:nowrap;text-decoration:none;color:#fff;background-color:#999;border-radius:.4rem;padding:.1rem .4rem;}
 @media (min-width:500px) {
 form {margin:15% auto 0;}
 #c {
@@ -35,6 +35,7 @@ margin:0 2%;
 }
 .dnward span {letter-spacing: .1em;}
 .upw2 a {font-size: 1.2em;}
+.btn a {font-size:larger;}
 .dnxem{margin-bottom: 1em;}
 .flrx {font-size: 2em;}
 .lsp01 {letter-spacing: .1em;}
