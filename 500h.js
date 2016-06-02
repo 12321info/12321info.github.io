@@ -65,7 +65,7 @@ l=r.length;
 var s1=r[l-1],s2="";
 var s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
-/*var i0=0,i1=0;*/
+var i0=0,i1=0;
 l=ar.length-1;
 for(n=0;n<l;n++){
 /* alert("i1"+i0); i1=ar[n+1].length>2?1:0;*/
