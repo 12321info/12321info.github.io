@@ -38,6 +38,7 @@ margin:0 2%;
 .dnxem{margin-bottom: 1em;}
 .lsp01 {letter-spacing: .1em;}
 .lsp03 {letter-spacing: .3em;}
+.flrx {font-size: larger;}
 }
 @media (max-width:499px) {/*mob*/
 form {margin:25% auto 0;}
@@ -58,7 +59,9 @@ letter-spacing: initial;
 .dnxem{margin-bottom: .8em;}
 .lsp01 {letter-spacing: initial;}/*use more!*/
 .lsp03 {letter-spacing: .1em;}
+.flrx {font-size: normal;}
 }
+
 .dnward p {margin: -.5em auto -.2em;}
 .dnward div {margin-bottom: -1em!important;}
 
@@ -69,7 +72,7 @@ letter-spacing: initial;
 .sbt{background-color:#999;color:#fff;border:none;height:1.8em;text-align:center;}
 .sbt:hover{background-color:#444;color:#fff;}
 
-.algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}
+.algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flrrr {font-size: 2em;}
 .lh25 {line-height: 2.5em ;}.mgnL1 {margin-left: 1em;}
 .lh0 {line-height: 1em ;}
 /*.mobile !important*/
