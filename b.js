@@ -14,7 +14,7 @@ document.getElementsByTagName('head')[0].appendChild (e);
 
 o.insertAdjacentHTML("beforeend",s0);
 o=document.getElementById("d");
-var s0="3";
+s0="<div class='algnC up15em dn1em c1'><div class='dnxem lh0'><a href='/'>＝運営協力「○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝</a></div><div class='dnxem lh0'><a href='/'>＝最高協力「○○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝</a></div></div><div class='algnR dn1em upward upw2'><a href='/'>トップページ</a></div><div class='algnR fsr xbd c0'>(c)2015-2016 How20XX All Rights Reserved.</div>";
 o.insertAdjacentHTML("beforeend",s0);
 
 function onsub0(){
