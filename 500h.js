@@ -40,11 +40,12 @@ var f=ar[1][3]-0;
 l=ar.length-1-f;
 alert(l);
 s0+="<div class='algnC dn1em lh05 btn'>";
-
-/*for(n=0;n<l;n++){
+for(n=0;n<l;n++){
+alert(n);
 s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a>";
-}*/
+}
+
 
 } else {//枝
 
