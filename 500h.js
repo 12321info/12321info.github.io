@@ -61,17 +61,13 @@ l=r.length;
 var s1=r[l-1],s2="";
 var s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
-var i0=0,i1=0;
+/*var i0=0,i1=0;*/
 l=ar.length-1;
 for(n=0;n<l;n++){
- alert("i1"+i0);
- i1=ar[n+1].length>2?1:0;
- alert("i1"+i1);
- s2=i1?"p"+ar[i0+1][2]:s+(i0<10?i0:i0<36?alf.charAt(i0-10):"-");
- alert(s2);
+/* alert("i1"+i0); i1=ar[n+1].length>2?1:0;*/
+ s2=ar[n+1].length>2?"p"+ar[n+1][2]:s+(n<10?n:n<36?alf.charAt(n-10):"-");
  s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
- if (i1) i0+=1;
- alert("i1"+i0);
+/* if (i1) i0++;//notWork*/
 }
 l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
