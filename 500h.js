@@ -46,19 +46,6 @@ s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a>";
 }*/
 
-if (f>0) {//代表有り
-alert(f);
-/*
-s0+="</div><div class='algnC dn1em lh05 btn'><span class='lsp03 xbd'>代表：</span>";
-
-for(n=0;n<f;n++){
-alert(n);
-s=ar[n+1+l][1];
-s0+="<a href='https://www.google.co.jp/search?q="+s.length<1?ar[n+1+l][0]:s+"&tbm=nws'>"+ar[n+1+l][0]+"</a>";
-}*/
-}
-o.insertAdjacentHTML("beforeend",s0+"</div>";
-
 } else {//枝
 
 s0+="<div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class='dnward dnw2'>";
