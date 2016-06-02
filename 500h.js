@@ -1,5 +1,5 @@
 ﻿alert("51111111oh0h");
-var elem = document.getElementById("test");
+var elem = document.getElementById("c");
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
 
