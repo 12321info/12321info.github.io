@@ -25,6 +25,25 @@ elem.insertAdjacentHTML('beforeend',list);
 }
 })();
 
+
+alert("0h");
+
+var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
+["テレビ","aa"],
+["視聴端末","aa"],
+["録画機","aa"],
+["ゲーム機","aa"],
+["プロジェクター","aa"],
+["立体映像","aa"],
+["壁表示","aa"],
+["鏡表示","aa"],
+["窓表示","aa"],
+["（ネットワークカメラ）","aa"],
+["（PC用モニター）","aa"],
+["（次）オーディオ","aa"]];
+
+
+
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
 
