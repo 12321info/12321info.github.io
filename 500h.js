@@ -51,7 +51,7 @@ alert(n);
 s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+s.length<1?ar[n+1+l][0]:s+"&tbm=nws'>"+ar[n+1+l][0]+"</a>";
 }
-o.insertAdjacentHTML("beforeend",s0+"</div>":
+o.insertAdjacentHTML("beforeend",s0+"</div>";
 }
 
 } else {//枝
