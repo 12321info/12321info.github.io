@@ -39,14 +39,13 @@ if(ar[1].length>2) {//末端
 var f=ar[1][3]-0;
 l=ar.length-1-f;
 alert(l);
-s0+="<div class='algnC dn1em lh05 btn'>":
-
-/*
+s0+="<div class='algnC dn1em lh05 btn'>";
 for(n=0;n<l;n++){
 s=ar[n+1][1];
 alert(n);
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a>";
 }
+/*
 
 
 if (f>0) {//代表有り
