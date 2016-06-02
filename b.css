@@ -65,7 +65,7 @@ letter-spacing: initial;
 
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .c0 {color:#666;}
-.c1 {color:#444;text-decoration: none;}
+.c1 {color:#444;text-decoration: none;font-weight: normal;}
 .c1 a {color:#444;}
 .ipt{border:none;background-color:#eee;}
 .sbt{background-color:#999;color:#fff;border:none;height:1.8em;text-align:center;}
