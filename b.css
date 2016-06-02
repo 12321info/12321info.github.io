@@ -37,6 +37,7 @@ margin:0 2%;
 }
 .dnward span {letter-spacing: .1em;}
 .upw2 a {font-size: 1.2em;}
+.dnxem{margin-bottom: 1em;}
 }
 @media (max-width:499px) {/*mob*/
 form {margin:25% auto 0;}
@@ -54,6 +55,7 @@ letter-spacing: initial;
 }
 .dnw2 a {margin-bottom: 0em;}
 .upw2 a {font-size: .8em;}/*.upward a:hover {margin: auto 0;}*/
+.dnxem{margin-bottom: .8em;}
 }
 .dnward p {margin: -.5em auto -.2em;}
 .dnward div {margin-bottom: -1em!important;}
