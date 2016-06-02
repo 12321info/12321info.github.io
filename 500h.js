@@ -20,7 +20,7 @@ elem.style.opacity = '0.15';
 (function(){
 var list = '<li>list</li>';
 for(i=0;i<10;i++){
-document.getElementById('test').insertAdjacentHTML('beforeend',list);
+elem.insertAdjacentHTML('beforeend',list);
 }
 })();
 
