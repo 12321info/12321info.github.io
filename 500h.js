@@ -53,16 +53,16 @@ alert(s0);
 
 var r=window.location.href.split('/');
 l=r.length;
-var s1=r[l-1];
+var s1=r[l-1],s2="";
 var s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
 l=ar.length-1;
 alert("4h");
 for(n=0;n<l;n++){
  alert("4h"+n);
- n=n<10?n:n<36?alf.charAt(n-10):"-";
- alert("4h"+n); 
- s0+="<a href='"+s+n+".html'><span>"+ar[n+1][0]+"</span></a>";
+ s2=n<10?n:n<36?alf.charAt(n-10):"-";
+ alert("4h"+s2); 
+ s0+="<a href='"+s+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
 }
 alert("5h");
 l=s1.length-5;
