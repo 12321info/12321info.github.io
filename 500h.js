@@ -1,4 +1,4 @@
-﻿alert("51111111oh0h");
+alert("51111111oh0h");
 var elem = document.getElementById("c");
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
@@ -11,6 +11,7 @@ if (navigator.userAgent.indexOf(osVer)>0){
 //alert(osVer);
 }
 console.log("ddd");
+alert("0h");
 
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["テレビ","aa"],
