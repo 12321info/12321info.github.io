@@ -5,10 +5,7 @@ font-weight: bold;
 }
 .dnward {text-align: center;}
 .dnward a {
- text-decoration: none;
- color: #fff;
- display: inline-block;
- height: 0;
+ text-decoration: none;display: inline-block;color: #fff;height: 0;
  padding: .1em .5em;
  box-shadow: 0 -3px 0 rgba(68,68,68,1);
  border-top: 2em solid #909090;
@@ -16,12 +13,13 @@ font-weight: bold;
  border-right: .5em solid transparent;
 }
 .dnward span {position: relative; top:-1.75em;}
-.dnw2 a {
- font-size: 1.2em;
- margin-bottom: .4em;
-}
+.dnw2 a { font-size: 1.2em; margin-bottom: .4em;}
 .upward a {
- text-decoration: none;display: inline-block;color: #ffffff;/*background-color: transparent;*/height: 0;line-height: 2em;box-shadow: 0 3px 0 rgba(68,68,68,1);border-bottom: 2em solid #909090;border-left: 1.5em solid transparent;border-right: 1.5em solid transparent;font-size: 2em;margin: .5em -1em;padding: .1em .5em;
+ text-decoration: none;display: inline-block;color: #fff;height: 0;
+ line-height: 2em;
+ box-shadow: 0 3px 0 rgba(68,68,68,1);border-bottom: 2em solid #909090;
+ border-left: .5em solid transparent;border-right: .5em solid transparent;
+ font-size: 2em;margin: .5em -1em;padding: .1em .5em;
 }
 .btn a {white-space:nowrap;text-decoration: none;color:#fff;background-color:#999;border-radius:.4rem; padding:.1rem .4rem;}
 @media (min-width:500px) {
