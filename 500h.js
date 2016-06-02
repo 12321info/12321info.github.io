@@ -25,7 +25,7 @@ elem.insertAdjacentHTML('beforeend',list);
 })();
 
 
-alert("110h");
+alert("111h");
 
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],["テレビ","aa"],
 ["視聴端末","aa"],
@@ -40,21 +40,13 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],["テレ
 ["（PC用モニター）","aa"],
 ["（次）オーディオ","aa"]];
 var s0="",s=""; var l=0;
+alert("2h");
 var o=document.getElementById('c');
 alert("3h");
 if(ar[1].length>2) {//末端
 alert(ar[1]);
 } else {//枝
 alert(ar[0]);
-
-s0+="div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class="dnward dnw2">";
-var r=window.location.href.split('/');
-l=r.length;
-var s1=r[l-1];
-var s=s1.substring(0, s1.lastIndexOf(".html"));
-var alf="abcdefghijklmnopqrstuvwxyz";
-l=ar.length-1;
-alert("4h");
 }
 
 
