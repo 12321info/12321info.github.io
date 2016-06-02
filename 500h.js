@@ -1,8 +1,3 @@
-alert("5");
-//var osVer = "iPhone"; if (navigator.userAgent.indexOf(osVer)>0){alert(osVer);}
-/*elem.style.transition = 'opacity 5s';
-elem.style.opacity = '0.15';*/
-
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["テレビ","aa"],
 ["視聴端末","aa"],
@@ -68,14 +63,11 @@ var alf="abcdefghijklmnopqrstuvwxyz";
 var x=0,y=0;
 l=ar.length-1;
 for(n=0;n<l;n++){
-alert("x-"+x);
 y=ar[n+1].length>2?1:0;
 s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
 s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
 }
-alert("x-"+x);
-
 l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+".html'>"+ar[0][1]+"</a></div>"
