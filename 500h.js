@@ -3,6 +3,7 @@ alert("51111111oh0h");
 /*elem.style.transition = 'opacity 5s';
 elem.style.opacity = '0.15';*/
 
+/*
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["テレビ","aa"],
 ["視聴端末","aa"],
@@ -16,8 +17,8 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa"],
 ["（次）オーディオ","aa","5000"]];
+*/
 
-/*
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["テレビ","テ|レビ","","2"],
 ["視聴端末","",""],
@@ -30,20 +31,21 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["窓表示","",""],
 ["（ネットワークカメラ）","",""],
 ["（PC用モニター）","",""],
-["（次）オーディオ","","gigiu"]];*/
+["（次）オーディオ","","gigiu"]];
 
 var s0="",s=""; var l=0;
 var o=document.getElementById('c');
 if(ar[1].length>2) {//末端
 alert(ar[1]);
-/*
+
 var f=ar[1][3]-0;
-var l=ar.length-1-f;
+l=ar.length-1-f;
 s0+="<div class='algnC dn1em lh05 btn'>":
 for(n=0;n<l;n++){
 s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+s.length<1?ar[n+1][0]:s+"&tbm=nws'>"+ar[n+1][0]+"</a>";
 }
+/*
 if (f>0) {//代表有り
 s0+="</div><div class='algnC dn1em lh05 btn'><span class='lsp03 xbd'>代表：</span>":
 for(n=0;n<f;n++){
