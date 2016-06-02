@@ -59,8 +59,9 @@ var alf="abcdefghijklmnopqrstuvwxyz";
 l=ar.length-1;
 alert("4h");
 for(n=0;n<l;n++){
- n=n<10?n:n<36?alf.charAt(n-10):'-';
- console.log("n="+n);
+ alert("4h"+n);
+ n=n<10?n:n<36?alf.charAt(n-10):"-";
+ alert("4h"+n); 
  s0+="<a href='"+s+n+".html'><span>"+ar[n+1][0]+"</span></a>";
 }
 alert("5h");
