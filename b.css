@@ -39,6 +39,7 @@ margin:0 2%;
 .upw2 a {font-size: 1.2em;}
 .dnxem{margin-bottom: 1em;}
 .lsp01 {letter-spacing: .1em !important;}
+.lsp03 {letter-spacing: .3em !important;}
 }
 @media (max-width:499px) {/*mob*/
 form {margin:25% auto 0;}
@@ -58,6 +59,7 @@ letter-spacing: initial;
 .upw2 a {font-size: .8em;}/*.upward a:hover {margin: auto 0;}*/
 .dnxem{margin-bottom: .8em;}
 .lsp01 {letter-spacing: initial;}/*use more!*/
+.lsp03 {letter-spacing: .1em !important;}
 }
 .dnward p {margin: -.5em auto -.2em;}
 .dnward div {margin-bottom: -1em!important;}
@@ -95,10 +97,8 @@ color:#fff;
 .ipt{border:none;background-color:#eee;}
 
 .algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}
-.lsp03 {letter-spacing: .3em !important;}
-.mobile .lsp03 {letter-spacing: .1em !important;}
-.lh25 {line-height: 2.5em !important;}.mgnL1 {margin-left: 1em;}.mgnL05 {margin-left: .5em;}.padb00 {padding-bottom: 0 !important;}
+.lh25 {line-height: 2.5em !important;}.mgnL1 {margin-left: 1em;}
 .lh0 {line-height: 1em !important;}
-/*.mobile .padb00 .mgnL05 .pdnw !important*/
+/*.mobile .pdnw !important*/
 .up12em{margin-top: 1.5em;}
 .up1em{margin-top: 1em;}.up-1em{margin-top: -1em;}.up0em{margin-top: 0;}.dn1em{margin-bottom: 1em;}.dn-1em{margin-bottom: -1em;}.dn0em{margin-bottom: 0em;}
