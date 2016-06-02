@@ -98,7 +98,7 @@ color:#fff;
 .lsp03 {letter-spacing: .3em !important;}
 .mobile .lsp03 {letter-spacing: .1em !important;}
 .lh25 {line-height: 2.5em !important;}.mgnL1 {margin-left: 1em;}.mgnL05 {margin-left: .5em;}.padb00 {padding-bottom: 0 !important;}
-.lh0 {line-height: 0em !important;}
+.lh0 {line-height: 1em !important;}
 /*.mobile .padb00 .mgnL05 .pdnw !important*/
 .up12em{margin-top: 1.2em;}
 .up1em{margin-top: 1em;}.up-1em{margin-top: -1em;}.up0em{margin-top: 0;}.dn1em{margin-bottom: 1em;}.dn-1em{margin-bottom: -1em;}.dn0em{margin-bottom: 0em;}
