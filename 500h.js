@@ -33,16 +33,16 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["（PC用モニター）","",""],
 ["（次）オーディオ","","gigiu"]];
 
-var s0="",s=""; var l=0;
+var s0="",s=""; var l=0; var i0=0;
 var o=document.getElementById('c');
 if(ar[1].length>2) {//末端
 var f=ar[1][3]-0;
 l=ar.length-1-f;
 s0+="<div class='algnC dn1em lh25 btn'>";
-var i0=0;
 for(n=0;n<l;n++){
 s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a> ";
+i0++;
 }
 alert("n-"+n);
 alert("i0-"+i0);
