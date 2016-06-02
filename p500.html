@@ -8,7 +8,7 @@
 </head> 
 <body>
 
-<div class="algnC title"><a class="up2em xbd c1" href="">ワード</a></div>
+<div class="algnC title"><a class="up2em xbd c1" href="">近未来のキーワード</a></div>
 <form method='POST' class='algnR dn1em' name='formjs0' onsubmit='return onsub0()'>
 <input name='txbx0' placeholder='' type='text' class="algnR ipt"/><input value="検 索" type="submit" class="sbt"/>
 </form>
@@ -44,32 +44,20 @@ return false;}
 <div class="dnxem lh0"><a href="/">＝運営協力「○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝</a></div>
 <div class="dnxem lh0"><a href="/">＝最高協力「○○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝</a></div></div>
 
-<div class="algnR dn1em upward upw2"><a href="/">ワード</a></div>
+<div class="algnR dn1em upward upw2"><a href="/">トップページ</a></div>
 <div class="algnR fsr xbd c0">(c)2015-2016 How20XX All Rights Reserved.</div>
 
-
-<div id="test">JS中</div>
 <script type="text/javascript">
-
 var ar=window.location.href.split('/');
-//alert(ar);
 var l=ar.length;
 var s=ar[l-1];
 var c0=s.substring(1, s.lastIndexOf(".html"))-0, c1=c0%10;
 s=ar[l-2];
 s=s.substring(0,2)+"tz"+s.substring(5);
 if (c1>5) c1++;
-alert(c0+s.charAt(c1)+'.js');
 var f = c0+s.charAt(c1)+'.js';
 var e = document.createElement('script'); e.src = f; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);
-
-var c=11;
-var alf='abcdefghijklmnopqrstuvwxyz';
-c=c<10?c:c<36?alf.charAt(c-10):'-';
-c=c+"w";
-c+="aaa";
-//alert(c);
 </script>
 
 </body>
