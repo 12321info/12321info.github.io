@@ -25,7 +25,7 @@ elem.insertAdjacentHTML('beforeend',list);
 })();
 
 
-alert("10h");
+alert("110h");
 
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],["テレビ","aa"],
 ["視聴端末","aa"],
@@ -39,19 +39,37 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],["テレ
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa"],
 ["（次）オーディオ","aa"]];
-alert("1h");
 var s0="",s=""; var l=0;
-alert("2h");
-var o=document.getElementsById('c');
+var o=document.getElementById('c');
 alert("3h");
 if(ar[1].length>2) {//末端
 alert(ar[1]);
-
 } else {//枝
 alert(ar[0]);
+console.log(ar[0]);
 
+s0+="div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class="dnward dnw2">";
+var r=window.location.href.split('/');
+console.log(r);
+l=r.length;
+var s1=r[l-1];
+var s=s1.substring(0, s1.lastIndexOf(".html"));
+console.log(s);
+var alf="abcdefghijklmnopqrstuvwxyz";
+l=ar.length-1;
+alert("4h");
+for(n=0;n<l;n++){
+ n=n<10?n:n<36?alf.charAt(n-10):'-';
+ console.log("n="+n);
+ s0+="<a href='"+s+n+".html'><span>"+ar[n+1][0]+"</span></a>";
 }
-
+alert("5h");
+l=s1.length-5;
+s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
+s0+="</div><div class='algnC upward upw2'><a href='"+s+".html'>"+ar[0][1]+"</a></div>"
+o.insertAdjacentHTML("beforeend",s0);
+alert("6h");
+}
 
 
 /*var el=document.getElementsByTagName('body')[0];
