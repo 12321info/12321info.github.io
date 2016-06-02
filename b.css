@@ -38,6 +38,7 @@ margin:0 2%;
 .dnward span {letter-spacing: .1em;}
 .upw2 a {font-size: 1.2em;}
 .dnxem{margin-bottom: 1em;}
+.lsp01 {letter-spacing: .1em !important;}
 }
 @media (max-width:499px) {/*mob*/
 form {margin:25% auto 0;}
@@ -56,6 +57,7 @@ letter-spacing: initial;
 .dnw2 a {margin-bottom: 0em;}
 .upw2 a {font-size: .8em;}/*.upward a:hover {margin: auto 0;}*/
 .dnxem{margin-bottom: .8em;}
+.lsp01 {letter-spacing: initial;}/*use more!*/
 }
 .dnward p {margin: -.5em auto -.2em;}
 .dnward div {margin-bottom: -1em!important;}
@@ -92,8 +94,8 @@ color:#fff;
 .c1, .c1 a {color:#0ff;text-decoration: none;}
 .ipt{border:none;background-color:#eee;}
 
-.algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}.lsp01 {letter-spacing: .1em !important;}
-.mobile .lsp01 {letter-spacing: initial;}/*use more!*/.lsp03 {letter-spacing: .3em !important;}
+.algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flra {font-size: larger; font-weight: normal; letter-spacing: .1em;}.flrr {font-size: 1.5em;}.flrrr {font-size: 2em;}
+.lsp03 {letter-spacing: .3em !important;}
 .mobile .lsp03 {letter-spacing: .1em !important;}.lh05 {line-height: 2.5em !important;}.mgnL1 {margin-left: 1em;}.mgnL05 {margin-left: .5em;}.padb00 {padding-bottom: 0 !important;}
 /*.mobile .padb00 .mgnL05 .pdnw !important*/
 .up2em{margin-top: 12em;}
