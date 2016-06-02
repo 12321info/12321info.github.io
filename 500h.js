@@ -10,7 +10,6 @@ var osVer = "iPhone";
 if (navigator.userAgent.indexOf(osVer)>0){
 //alert(osVer);
 }
-console.log("ddd");
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
@@ -41,6 +40,17 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa"],
 ["（次）オーディオ","aa"]];
+
+var s0="",s=""; var l=0;
+var o=document.getElementsById('c');
+
+if(ar[1].length>2) {//末端
+alert(ar[1]);
+
+} else {//枝
+alert(ar[0]);
+
+}
 
 
 
