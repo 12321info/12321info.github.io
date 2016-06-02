@@ -36,7 +36,7 @@ var s0="",s=""; var l=0;
 var o=document.getElementById('c');
 if(ar[1].length>2) {//末端
 alert(ar[1]);
-
+/*
 var f=ar[1][3]-0;
 var l=ar.length-1-f;
 s0+="<div class='algnC dn1em lh05 btn'>":
@@ -51,7 +51,7 @@ s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+s.length<1?ar[n+1+l][0]:s+"&tbm=nws'>"+ar[n+1+l][0]+"</a>";
 }
 o.insertAdjacentHTML("beforeend",s0+"</div>":
-}
+}*/
 
 } else {//枝
 
