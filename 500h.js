@@ -69,10 +69,10 @@ var x=0,y=0;
 l=ar.length-1;
 for(n=0;n<l;n++){
 alert("x-"+x);
-y=ar[n+1].length>2?0:1;
-s2=y?"p"+ar[x+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
+y=ar[n+1].length>2?1:0;
+s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
 s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
-if (y) x++;
+if (!y) x++;
 }
 alert("x-"+x);
 
