@@ -42,20 +42,17 @@ alert(l);
 s0+="<div class='algnC dn1em lh05 btn'>";
 for(n=0;n<l;n++){
 s=ar[n+1][1];
-alert(n);
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a>";
 }
-/*
-
-
 if (f>0) {//代表有り
-s0+="</div><div class='algnC dn1em lh05 btn'><span class='lsp03 xbd'>代表：</span>":
+s0+="</div><div class='algnC dn1em lh05 btn'><span class='lsp03 xbd'>代表：</span>";
 for(n=0;n<f;n++){
+alert(n);
 s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+s.length<1?ar[n+1+l][0]:s+"&tbm=nws'>"+ar[n+1+l][0]+"</a>";
 }
 o.insertAdjacentHTML("beforeend",s0+"</div>":
-}*/
+}
 
 } else {//枝
 
