@@ -66,6 +66,7 @@ l=ar.length-1;
 for(n=0;n<l;n++){
  alert(i0);
  i1=ar[n+1].length>2?1:0;
+ alert(i1);
  s2=i1?"p"+ar[i0+1][2]:s+(i0<10?i0:i0<36?alf.charAt(i0-10):"-");
  alert(s2);
  s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
