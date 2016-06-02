@@ -14,7 +14,7 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],["テレ
 ["窓表示","aa"],
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa"],
-["（次）オーディオ","aa"]];
+["（次）オーディオ","aa","5000"]];
 var s0="",s=""; var l=0;
 var o=document.getElementById('c');
 if(ar[1].length>2) {//末端
@@ -28,8 +28,8 @@ var s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
 l=ar.length-1;
 for(n=0;n<l;n++){
- s2=n<10?n:n<36?alf.charAt(n-10):"-";
- s0+="<a href='"+s+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
+ s2=ar[n+1].length>2?"p"+ar[n+1][2]:s+n<10?n:n<36?alf.charAt(n-10):"-";
+ s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
 }
 l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
