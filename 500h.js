@@ -68,11 +68,11 @@ var alf="abcdefghijklmnopqrstuvwxyz";
 var i0=0,i1=0;
 l=ar.length-1;
 for(n=0;n<l;n++){
-/* alert("i1"+i0); i1=ar[n+1].length>2?1:0;*/
+alert("i1"+i0);
+i1=ar[n+1].length>2?1:0;
 s2=ar[n+1].length>2?"p"+ar[n+1][2]:s+(n<10?n:n<36?alf.charAt(n-10):"-");
 s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
-/* if (i1) i0++;//notWork*/
-i0++;
+if (i1) i0++;
 }
 alert("n-"+n);
 alert("i0-"+i0);
