@@ -57,20 +57,19 @@ var l=ar.length;
 var s=ar[l-1];
 var c0=s.substring(0, s.lastIndexOf(".html"))-0, c1=c0%10;
 if (c1>5) c1++;
-//alert(c0+ar[l-2].charAt(c1)+'.js');
+alert(c0+ar[l-2].charAt(c1)+'.js');
 
-/*
-var Src_File = c0+ar[l-2].charAt(c1)+'.js';
+var f = c0+ar[l-2].charAt(c1)+'.js';
 var scriptElement = document.createElement('script');
-scriptElement.src = Src_File ;
-document.getElementsByTagName('head')[0].appendChild (scriptElement);*/
+scriptElement.src = f;
+document.getElementsByTagName('head')[0].appendChild (scriptElement);
 
 var c=11;
 var alf='abcdefghijklmnopqrstuvwxyz';
 c=c<10?c:c<36?alf.charAt(c-10):'-';
 c=c+"w";
 c+="aaa";
-alert(c);
+//alert(c);
 </script>
 
 </body>
