@@ -7,10 +7,11 @@ font-weight: bold;
 .dnward a {
  text-decoration: none;display: inline-block;color: #fff;height: 0;
  padding: .1em .5em;
- box-shadow: 0 -3px 0 rgba(68,68,68,1);
- border-top: 2em solid #909090;
- border-left: .5em solid transparent;
- border-right: .5em solid transparent;
+ box-shadow: 0 -3px 0 rgba(68,68,68,1); border-top: 2em solid #909090;
+ border-left: .5em solid transparent;border-right: .5em solid transparent;
+}
+.sdward {
+ border-left: 0em solid transparent;border-right: 0em solid transparent;
 }
 .dnward span {position: relative; top:-1.75em;}
 .dnw2 a { font-size: 1.2em; margin-bottom: .4em;}
