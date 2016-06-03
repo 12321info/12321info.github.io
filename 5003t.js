@@ -12,7 +12,7 @@
 ["（PC用モニター）","aa","5000"],
 ["（次）オーディオ","aa"]];*/
 
-var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["matome","soundc"]],
+var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["http://matome","http://soundc"]],
 ["テレビ","テ|レビ","","2"],
 ["視聴端末","",""],
 ["録画機","録|画",""],
@@ -47,6 +47,11 @@ for(n=0;n<f;n++){
 s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&tbm=nws'>"+ar[n+1+l][0]+"</a> ";
 }
+}
+i0=ar[0][4].length; if (i0) {
+s0+="</div><div class='algnR dn1em btn'>";
+if (ar[0][4][0].length) {s0+="<a href='"+ar[0][4][0]+"'>例</a>";}
+if (ar[0][4][1].length) {s0+="<a href='"+ar[0][4][1]+"'>音</a>";}
 }
 
 } else {
