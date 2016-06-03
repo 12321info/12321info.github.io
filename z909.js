@@ -1,4 +1,11 @@
-﻿alert("51111111oh0h");
+alert("51111111oh0h");
+
+/*
+var osVer = "iPhone"; if (navigator.userAgent.indexOf(osVer)>0){alert(osVer);}
+これだけでじわじわ消える
+elem.style.transition = 'opacity 5s'; elem.style.opacity = '0.15';
+*/
+
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
