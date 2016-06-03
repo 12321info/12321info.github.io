@@ -9,11 +9,11 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["鏡表示","aa"],
 ["窓表示","aa"],
 ["（ネットワークカメラ）","aa"],
-["（PC用モニター）","aa"],
-["（次）オーディオ","aa","5000"]];
+["（PC用モニター）","aa","5000"],
+["（次）オーディオ","aa"]];
 
 /*
-var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
+var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["matome","soundc"]],
 ["テレビ","テ|レビ","","2"],
 ["視聴端末","",""],
 ["録画機","録|画",""],
@@ -54,7 +54,7 @@ o.insertAdjacentHTML("beforeend",s0+"</div>");
 
 } else {//枝
 
-s0+="<div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class='dnward dnw2'>";
+s0+="<div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class='dtl'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
 var r=window.location.href.split('/');
 l=r.length;
 var s1=r[l-1],s2="";
