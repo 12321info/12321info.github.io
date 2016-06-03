@@ -43,8 +43,8 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tb
 if (f>0) {
 s0+="</div><div class='algnC dn1em lh25 btn'><span class='lsp03 xbd'>代表：</span>";
 for(n=0;n<f;n++){
-if (ar[n+l+1].length<2) {
-s0+="<a href='"+ar[n+1][0]+"' class='ka'>- 価 -</a> ";
+if (ar[n+1+l].length<2) {
+s0+="<a href='"+ar[n+1+l][0]+"' class='ka'>- 価 -</a> ";
 } else {
 s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&tbm=nws'>"+ar[n+1+l][0]+"</a> ";
