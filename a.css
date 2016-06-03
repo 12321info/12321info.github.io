@@ -11,7 +11,8 @@ font-weight: bold;
  border-left: .5em solid transparent;border-right: .5em solid transparent;
 }
 .sdward {
- border-left: 0em solid transparent;border-right: 0em solid transparent;
+ box-shadow: 0 0 0 rgba(68,68,68,1);
+ border-left: 0 solid transparent;border-right: 0 solid transparent;
 }
 .dnward span {position: relative; top:-1.75em;}
 .dnw2 a { font-size: 1.2em; margin-bottom: .4em;}
