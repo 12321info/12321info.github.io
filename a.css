@@ -23,7 +23,9 @@ font-weight: bold;
  border-left: .5em solid transparent;border-right: .5em solid transparent;
  font-size: 2em;margin: .5em -1em;padding: .1em .5em;
 }
-.btn a {white-space:nowrap;text-decoration:none;color:#fff;background-color:#999;border-radius:.4rem;padding:.1rem .4rem;}
+.btn a,.ka {white-space:nowrap;text-decoration:none;color:#fff;background-color:#999;padding:.1rem .4rem;}
+.btn a {border-radius:.4rem;}
+.ka {border-radius:1rem;}
 @media (min-width:500px) {
 form {margin:15% auto 0;}
 #d {
