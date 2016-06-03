@@ -50,8 +50,8 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&
 }
 i0=ar[0][4].length; if (i0) {
 s0+="</div><div class='algnR dn1em btn'>";
-if (ar[0][4][0].length) {s0+="<a href='"+ar[0][4][0]+"'>例</a>";}
-if (ar[0][4][1].length) {s0+="<a href='"+ar[0][4][1]+"'>音</a>";}
+if (ar[0][4][0].length) {s0+="<a href='"+ar[0][4][0]+"'>-例-</a>";}
+if (ar[0][4][1].length) {s0+="<a href='"+ar[0][4][1]+"'>&nbsp&nbsp-音-</a>";}
 }
 
 } else {
