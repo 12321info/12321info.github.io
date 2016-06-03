@@ -10,7 +10,7 @@ s=s.substring(0,3)+"tz"+s.substring(5);
 if (isNaN(c1)) {c1="z";}
 else {if (c1>5) {c1++;} c1=s.charAt(c1);}
 var f = c0+c1+".js";
-alert("s "+s+" c0-"+c0+" c1-"+c1+" f"+f);
+/*alert("s "+s+" c0-"+c0+" c1-"+c1+" f"+f);*/
 var e = document.createElement('script'); e.src = f; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);
 
