@@ -32,7 +32,7 @@ var o=document.getElementById('d');
 if(ar[1].length>2) {//末端
 var f=ar[1][3]-0;
 l=ar.length-1-f;
-s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn1em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
+s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
 var i0=0;
 for(n=0;n<l;n++){
 s=ar[n+1][1];
@@ -49,7 +49,7 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&
 
 } else {//枝
 
-s0+="<div class='algnC dn1em flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn1em xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
+s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
 var r=window.location.href.split('/');
 l=r.length;
 var s1=r[l-1],s2="";
