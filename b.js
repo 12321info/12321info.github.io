@@ -1,4 +1,4 @@
-var o=document.getElementById("b");
+var o=document.getElementById("c");
 var s0="<div class='algnC title'><a class='up2em xbd c1' href=''>近未来のキーワード</a></div><form method='POST' class='algnR dn1em' name='formjs0' onsubmit='return onsub0()'><input name='txbx0' placeholder='' type='text' class='algnR ipt'/><input value='検 索' type='submit' class='sbt'/></form>";
 
 var ar=window.location.href.split('/');
@@ -13,7 +13,7 @@ var e = document.createElement('script'); e.src = f; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);
 
 o.insertAdjacentHTML("beforeend",s0);
-o=document.getElementById("d");
+o=document.getElementById("e");
 s0="<div class='algnC up15em dn1em c1'><div class='dnxem lh0'><a href='/'>＝運営協力「○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝</a></div><div class='dnxem lh0'><a href='/'>＝最高協力「○○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝</a></div></div><div class='algnR dn1em upward upw2'><a href='/'>トップページ</a></div><div class='algnR fsr xbd c0'>(c)2015-2016 How20XX All Rights Reserved.</div>";
 o.insertAdjacentHTML("beforeend",s0);
 
