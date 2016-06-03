@@ -11,7 +11,7 @@ font-weight: bold;
  border-left: .5em solid transparent;border-right: .5em solid transparent;
 }
 .sdward {
- padding: .1em 0;
+ margin:auto .5em!important; padding: .1em 0!important;
  border-left: 0 solid transparent!important;border-right: 0 solid transparent!important;
 }
 .dnward span {position: relative; top:-1.75em;}
