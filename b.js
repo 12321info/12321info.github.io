@@ -4,12 +4,12 @@ var s0="<div class='algnC title'><a class='up2em xbd c1' href=''>近未来のキ
 var ar=window.location.href.split('/');
 var l=ar.length;
 var s=ar[l-1];
-var c0=s.substring(1, s.lastIndexOf(".html"))-0, c1=c0%10;
+var c0=s.substring(1, s.lastIndexOf(".html")), c1=c0.substring(c0.length-1,1);
 s=ar[l-2];
-s=s.substring(0,2)+"tz"+s.substring(5);
+s=s.substring(0,3)+"tz"+s.substring(5);
 if (c1>5) c1++;
 var f = c0+s.charAt(c1)+'.js';
-alert("s "+s+" c0"+c0+" c1"+c1+" f"+f);
+alert("s "+s+" c0-"+c0+" c1-"+c1+" f"+f);
 var e = document.createElement('script'); e.src = f; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);
 
