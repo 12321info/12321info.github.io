@@ -32,7 +32,7 @@ var r=window.location.href.split('/');
 var l=r.length;
 var s="",s0="",s1=r[l-1];
 
-if(ar[1].length>2) {//末端
+if(ar[1].length>2) {
 var f=ar[1][3]-0;
 l=ar.length-1-f;
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
@@ -42,7 +42,7 @@ s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a> ";
 i0+=1;
 }
-if (f>0) {//代表有り
+if (f>0) {
 s0+="</div><div class='algnC dn1em lh25 btn'><span class='lsp03 xbd'>代表：</span>";
 for(n=0;n<f;n++){
 s=ar[n+1+l][1];
@@ -50,7 +50,7 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&
 }
 }
 
-} else {//枝
+} else {
 
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
 s=s1.substring(0, s1.lastIndexOf(".html"));
@@ -66,6 +66,5 @@ if (!y) x++;
 }
 l=s1.length;
 s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"index.html";
-alert("s1-"+s1+" l-"+l+" s-"+s);
 s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
