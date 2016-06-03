@@ -24,6 +24,7 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["http://
 ["窓表示","",""],
 ["（ネットワークカメラ）","",""],
 ["（PC用モニター）","",""],
+["http://www.amazon.co.jp/gp/product/B00N0ISSHQ/?ie=UTF8&amp;link_code=as3&amp;tag=satmgzrnt-22"],
 ["（次）オーディオ","","gigiu"]];
 
 var o=document.getElementById('d');
@@ -35,11 +36,13 @@ if(ar[1].length>2) {
 var f=ar[1][3]-0;
 l=ar.length-1-f;
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
-var i0=0;
 for(n=0;n<l;n++){
+if (ar[n+1].length<2) {
+s0+="<a href='"+ar[n+1][0]+" class='ka'>- 価 -</a> ";
+} else {
 s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a> ";
-i0+=1;
+}
 }
 if (f>0) {
 s0+="</div><div class='algnC dn1em lh25 btn'><span class='lsp03 xbd'>代表：</span>";
@@ -48,7 +51,7 @@ s=ar[n+1+l][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&tbm=nws'>"+ar[n+1+l][0]+"</a> ";
 }
 }
-i0=ar[0][4].length; if (i0) {
+var i0=ar[0][4].length; if (i0) {
 s0+="</div><div class='algnR dn1em btn'>";
 if (ar[0][4][0].length) {s0+="<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
 if (ar[0][4][1].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][1]+"'>- 音 -</a>";}
