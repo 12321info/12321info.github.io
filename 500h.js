@@ -1,4 +1,4 @@
-/*var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
+var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["テレビ","aa"],
 ["視聴端末","aa"],
 ["録画機","aa"],
@@ -10,9 +10,9 @@
 ["窓表示","aa"],
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa","5000"],
-["（次）オーディオ","aa"]];*/
+["（次）オーディオ","aa"]];
 
-
+/*
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["matome","soundc"]],
 ["テレビ","テ|レビ","","2"],
 ["視聴端末","",""],
@@ -25,7 +25,7 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["matome"
 ["窓表示","",""],
 ["（ネットワークカメラ）","",""],
 ["（PC用モニター）","",""],
-["（次）オーディオ","","gigiu"]];
+["（次）オーディオ","","gigiu"]];*/
 
 var o=document.getElementById('d');
 var r=window.location.href.split('/');
@@ -66,5 +66,6 @@ if (!y) x++;
 }
 l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
-s0+="</div><div class='algnC upward upw2'><a href='"+s+".html'>"+ar[0][1]+"</a></div>"
+alert("s1-"+s1+" l-"+l+"s-"+s);
+s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
