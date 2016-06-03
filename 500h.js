@@ -27,8 +27,11 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["matome"
 ["（PC用モニター）","",""],
 ["（次）オーディオ","","gigiu"]];
 
-var s0="",s=""; var l=0;
 var o=document.getElementById('d');
+var r=window.location.href.split('/');
+var l=r.length;
+var s="",s0="",s1=r[l-1];
+
 if(ar[1].length>2) {//末端
 var f=ar[1][3]-0;
 l=ar.length-1-f;
@@ -50,12 +53,9 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&
 } else {//枝
 
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
-var r=window.location.href.split('/');
-l=r.length;
-var s1=r[l-1],s2="";
-var s=s1.substring(0, s1.lastIndexOf(".html"));
+s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
-var x=0,y=0;
+var x=0,y=0; var s2="";
 l=ar.length-1;
 for(n=0;n<l;n++){
 y=ar[n+1].length>2?1:0;
@@ -63,8 +63,8 @@ s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
 s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
 }
+}
 l=s1.length-5;
 s=l>6?s1.substring(0,l-7)+s1.substring(l-5):"index.html";
-}
 s0+="</div><div class='algnC upward upw2'><a href='"+s+".html'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
