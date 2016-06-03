@@ -28,7 +28,7 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 ["（次）オーディオ","","gigiu"]];*/
 
 var s0="",s=""; var l=0;
-var o=document.getElementById('c');
+var o=document.getElementById('d');
 if(ar[1].length>2) {//末端
 var f=ar[1][3]-0;
 l=ar.length-1-f;
