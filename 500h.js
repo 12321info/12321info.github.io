@@ -64,9 +64,8 @@ s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
 }
 }
-s1="10.html";
 l=s1.length;
-s=l>6?s1.substring(0,l-6)+s1.substring(l-5):"index.html";
+s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"index.html";
 alert("s1-"+s1+" l-"+l+" s-"+s);
 s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
