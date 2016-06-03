@@ -25,7 +25,7 @@ font-weight: bold;
 }
 .btn a,.ka {white-space:nowrap;text-decoration:none;color:#fff;background-color:#999;padding:.1rem .4rem;}
 .btn a {border-radius:.4rem;}
-.ka {border-radius:1rem;}
+.ka {border-radius:1rem!important;margin-right:1em!important;}
 @media (min-width:500px) {
 form {margin:15% auto 0;}
 #d {
