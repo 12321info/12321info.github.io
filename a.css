@@ -66,6 +66,7 @@ letter-spacing: initial;
 }
 
 #d {
+animation: r01 4.5s linear infinite, color 2.1s linear infinite;
 -webkit-animation: r01 4.5s linear infinite, color 2.1s linear infinite;
 }
 @keyframes r01 { 0% {
