@@ -65,6 +65,52 @@ letter-spacing: initial;
 .lsp03 {letter-spacing: .1em;}
 }
 
+#d {
+-webkit-animation: r01 4.5s linear infinite, color 2.1s linear infinite;
+}
+@keyframes r01 { 0% {
+transform: scale(.1) rotate(0deg);
+-webkit-transform: scale(.1) rotate(0deg);
+} 50% {
+transform: scale(1.86) rotate(-245deg);
+-webkit-transform: scale(1.86) rotate(-245deg);
+} 100% {
+transform: scale(.1) rotate(180deg);
+-webkit-transform: scale(.1) rotate(180deg);
+}}
+@-webkit-keyframes r01 { 0% {
+transform: scale(.1) rotate(0deg);
+-webkit-transform: scale(.1) rotate(0deg);
+} 50% {
+transform: scale(1.86) rotate(-245deg);
+-webkit-transform: scale(1.86) rotate(-245deg);
+} 100% {
+transform: scale(.1) rotate(-180deg);
+-webkit-transform: scale(.1) rotate(-180deg);
+}}
+@keyframes color { 0% {
+border-color: #FFF8DD;
+} 25% {
+border-color: #F377FF;
+} 50% {
+border-color: #1EFFB0;
+} 75% {
+border-color: #FFEA4C;
+}100% {
+border-color: #FF6868;
+}}
+@-webkit-keyframes color { 0% {
+border-color: #FFF8DD;
+} 25% {
+border-color: #F377FF;
+} 50% {
+border-color: #1EFFB0;
+} 75% {
+border-color: #FFEA4C;
+} 100% {
+border-color: #FF6868;
+}}
+
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .c0 {color:#666;}
 .c1 {color:#444;text-decoration: none;}
