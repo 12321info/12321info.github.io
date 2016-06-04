@@ -66,50 +66,22 @@ letter-spacing: initial;
 }
 
 #d {
-animation: r01 4.5s linear infinite, color 2.1s linear infinite;
--webkit-animation: r01 4.5s linear infinite, color 2.1s linear infinite;
+animation: color 1s ease-in 0s 1 normal;
+-webkit-animation:  color 1s ease-in 0s 1 normal;
 }
-@keyframes r01 { 0% {
-transform: scale(.1) rotate(0deg);
--webkit-transform: scale(.1) rotate(0deg);
-} 50% {
-transform: scale(1.86) rotate(-245deg);
--webkit-transform: scale(1.86) rotate(-245deg);
-} 100% {
-transform: scale(.1) rotate(180deg);
--webkit-transform: scale(.1) rotate(180deg);
-}}
-@-webkit-keyframes r01 { 0% {
-transform: scale(.1) rotate(0deg);
--webkit-transform: scale(.1) rotate(0deg);
-} 50% {
-transform: scale(1.86) rotate(-245deg);
--webkit-transform: scale(1.86) rotate(-245deg);
-} 100% {
-transform: scale(.1) rotate(-180deg);
--webkit-transform: scale(.1) rotate(-180deg);
-}}
 @keyframes color { 0% {
-border-color: #FFF8DD;
-} 25% {
-border-color: #F377FF;
-} 50% {
-border-color: #1EFFB0;
-} 75% {
-border-color: #FFEA4C;
-}100% {
-border-color: #FF6868;
+background-color: #FFF8DD;} 25% {
+background-color: #F377FF;
+} 50% {background-color: #1EFFB0;
+} 75% {background-color: #FFEA4C;
+}100% {background-color: #FF6868;
 }}
 @-webkit-keyframes color { 0% {
-border-color: #FFF8DD;
-} 25% {
-border-color: #F377FF;
-} 50% {
-border-color: #1EFFB0;
-} 75% {
-border-color: #FFEA4C;
-} 100% {
-border-color: #FF6868;
+background-color: #FFF8DD;
+} 25% {background-color: #F377FF;
+} 50% {background-color: #1EFFB0;
+} 75% {background-color: #FFEA4C;
+} 100% {background-color: #FF6868;
 }}
 
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
