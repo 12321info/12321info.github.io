@@ -40,6 +40,8 @@ document.getElementsByTagName('head')[0].appendChild (e);*/
 ["（PC用モニター）","aa","5000"],
 ["（次）オーディオ","aa"]];*/
 
+window.addEventListener("load",function(eve){
+
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み",["http://matome","http://soundc"]],
 ["テレビ","テ|レビ","","3"],
 ["視聴端末","",""],
@@ -102,6 +104,8 @@ l=s1.length;
 s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"index.html";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
+
+},false);
 
 /*var e = document.createElement('script'); e.src = "b.js"; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);*/
