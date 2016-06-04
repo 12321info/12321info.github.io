@@ -1,3 +1,8 @@
+TouchPoint.js v1.0.0 - 2015-08-03 
+Copyright (c) 2015 Jonah Bitautas <jonahvsweb@gmail.com>
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php
+
 var TouchPoint;
 
 (function () {
