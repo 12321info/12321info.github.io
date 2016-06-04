@@ -66,23 +66,11 @@ letter-spacing: initial;
 }
 
 #d {
-animation: color 1s ease-in 0s 1 normal;
--webkit-animation:  color 1s ease-in 0s 1 normal;
+animation: color 1s ease-out 0s 1 normal;
+-webkit-animation: color 1s ease-out 0s 1 normal;
 }
-@keyframes color { 0% {
-background-color: #FFF8DD;} 25% {
-background-color: #F377FF;
-} 50% {background-color: #1EFFB0;
-} 75% {background-color: #FFEA4C;
-}100% {background-color: #FF6868;
-}}
-@-webkit-keyframes color { 0% {
-background-color: #FFF8DD;
-} 25% {background-color: #F377FF;
-} 50% {background-color: #1EFFB0;
-} 75% {background-color: #FFEA4C;
-} 100% {background-color: #FF6868;
-}}
+@keyframes color {0% {opacity: 0;} 100% {opacity: 1;}}
+@-webkit-keyframes color {0% {opacity: 0;} 100% {opacity: 1;}}
 
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .c0 {color:#666;}
