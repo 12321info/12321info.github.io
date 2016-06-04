@@ -15,7 +15,9 @@ s0="<div id='f' class='algnC up15em dn1em c1' style='opacity:0;'><div class='dnx
 o.insertAdjacentHTML("beforeend",s0);
 o=document.getElementById("f");
 o.style.transition = 'opacity .5s ease-out 1s';
-o.style.opacity = '1';
+let { opacity }=o.ownerDocument.defaultView.getComputedStyle(o, null);
+if (opacity === '1') {o.style.opacity = '0';}
+else {o.style.opacity = '1';}
 
 function onsub0(){
 var v=document.formjs0.txbx0.value;
