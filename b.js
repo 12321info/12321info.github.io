@@ -14,10 +14,8 @@ o=document.getElementById("e");
 s0="<div id='f' class='algnC up15em dn1em c1' style='opacity:0;'><div class='dnxem lh0'><a href='"+pr[c0][1]+"'>"+pr[c0][0]+"</a></div><div class='dnxem lh0'><a href='"+pr[c0][3]+"'>"+pr[c0][2]+"</a></div></div><div class='algnR dn1em upward upw2'><a href='/'>トップページ</a></div><div class='algnR fsr xbd c0'>(c)2015-2016 How20XX All Rights Reserved.</div>";
 o.insertAdjacentHTML("beforeend",s0);
 o=document.getElementById("f");
-o.style.transition = 'opacity 3s';
-let { opacity }=o.ownerDocument.defaultView.getComputedStyle(o, null);
-if (opacity === '1') {o.style.opacity = '0';}
-else {o.style.opacity = '1';}
+o.style.transition = 'opacity .5s ease-out 1s';
+o.style.opacity = '1';
 
 function onsub0(){
 var v=document.formjs0.txbx0.value;
