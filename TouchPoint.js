@@ -3,7 +3,7 @@ var TouchPoint;
 (function () {
 
   'use strict';
-
+alert("dddddddddd");
   TouchPoint = {
 
     isSafari: !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/),
