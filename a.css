@@ -27,7 +27,6 @@ font-weight: bold;
 .btn a {border-radius:.4rem;}
 .ka {border-radius:1rem!important;margin-left:-.5em!important;margin-right:1em!important;}
 @media (min-width:500px) {
-form {margin:15% auto 0;}
 #d {
 background-color:#eee;
 width:96%;
@@ -46,7 +45,6 @@ margin:0 2%;
 .lsp03 {letter-spacing: .3em;}
 }
 @media (max-width:499px) {/*mob*/
-form {margin:25% auto 0;}
 #d {
 background-color:#eee;
 width:100%;
