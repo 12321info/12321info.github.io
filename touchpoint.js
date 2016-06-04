@@ -1,14 +1,14 @@
-TouchPoint.js v1.0.0 - 2015-08-03 
+/* TouchPoint.js v1.0.0 - 2015-08-03 
 Copyright (c) 2015 Jonah Bitautas <jonahvsweb@gmail.com>
 Released under the MIT license
 http://opensource.org/licenses/mit-license.php
-
+*/ 
 var TouchPoint;
 
 (function () {
 
   'use strict';
-alert("dddddddddd");
+
   TouchPoint = {
 
     isSafari: !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/),
@@ -45,9 +45,6 @@ alert("dddddddddd");
         TouchPoint.tp.style.left = (e.pageX - (TouchPoint.size * 0.5)) + 'px';
         TouchPoint.tp.style.top = (e.pageY - (TouchPoint.size * 0.5)) + 'px';
       } else if (TouchPoint.getMobileOS() === 'Android') {
-        TouchPoint.tp.style.left = (e.touches[0].pageX - (TouchPoint.size * 0.5)) + 'px';
-        TouchPoint.tp.style.top = (e.touches[0].pageY - (TouchPoint.size * 0.5)) + 'px';
-      } else if (e.touches && e.touches.length > 0) { 
         TouchPoint.tp.style.left = (e.touches[0].pageX - (TouchPoint.size * 0.5)) + 'px';
         TouchPoint.tp.style.top = (e.touches[0].pageY - (TouchPoint.size * 0.5)) + 'px';
       } else { 
