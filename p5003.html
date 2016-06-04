@@ -94,7 +94,7 @@ l=ar.length-1;
 for(n=0;n<l;n++){
 y=ar[n+1].length>2?1:0;
 s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
-s0+="<a href='"+s2+".html'><span>"+ar[n+1][0]+"</span></a>";
+s0+="<a href='"+s2+".html'"+(y?" class='sdward'":"")+"><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
 }
 }
