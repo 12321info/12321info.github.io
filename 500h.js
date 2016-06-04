@@ -32,7 +32,7 @@ var r=window.location.href.split('/');
 var l=r.length;
 var s="",s0="",s1=r[l-1];
 
-if(ar[1].length>2) {
+if(ar[1].length>3) {
 var f=ar[1][3]-0;
 l=ar.length-1-f;
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
