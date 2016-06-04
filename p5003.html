@@ -10,7 +10,7 @@ body {width: 100%;height: auto;padding: 0;margin: 0 auto;}
 #d div {}
 </style>
 <script src="touchpoint.js"></script>
-<script>(function () {TouchPoint.color = 'blue';TouchPoint.init(window);})();</script>
+<script></script>
 </head>
 <body><div>
 <div id="c"></div>
@@ -109,6 +109,7 @@ s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"index.html";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
 
+(function () {TouchPoint.color = 'blue';TouchPoint.init(o);})();
 /*var e = document.createElement('script'); e.src = "b.js"; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);*/
 
