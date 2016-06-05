@@ -66,31 +66,19 @@ letter-spacing: initial;
 }
 
 #d {
-animation: trs .1s ease-out 0s 4 normal;
--webkit-animation: trs .1s linear 0s 4 normal;
+animation: trs .05s ease-out 0s 8 normal;
+-webkit-animation: trs .05s linear 0s 8 normal;
 }
-@keyframes trs {0% {transform:translate(0,20%);
--webkit-transform:translate(0,20%);}
- 25% {transform:translate(0,-10%);
--webkit-transform:translate(0,-10%);}
- 50% {transform:translate(0,40%);
--webkit-transform:translate(0,40%);}
- 75% {transform:translate(0,-20%);
--webkit-transform:translate(0,-20%);}
- 100% {transform:translate(0,0);
--webkit-transform:translate(0,0);}
-}
-@-webkit-keyframes trs {0% {transform:translate(0,20%);
--webkit-transform:translate(0,20%);}
- 25% {transform:translate(0,-10%);
--webkit-transform:translate(0,-10%);}
- 50% {transform:translate(0,40%);
--webkit-transform:translate(0,40%);}
- 75% {transform:translate(0,-20%);
--webkit-transform:translate(0,-20%);}
- 100% {transform:translate(0,0);
--webkit-transform:translate(0,0);}
-}
+@keyframes trs {0% {transform:translate(0,20%);}
+ 25% {transform:translate(0,-20%);}
+ 50% {transform:translate(0,20%);}
+ 75% {transform:translate(0,-20%);;}
+ 100% {transform:translate(0,0);}}
+@-webkit-keyframes trs {0% {-webkit-transform:translate(0,20%);}
+ 25% {-webkit-transform:translate(0,-20%);}
+ 50% {-webkit-transform:translate(0,20%);}
+ 75% {-webkit-transform:translate(0,-20%);}
+ 100% {-webkit-transform:translate(0,0);}}
 
 .title {border-top:1px solid #444;border-bottom:1px solid #444;margin-top:3em;}
 .c0 {color:#666;}
