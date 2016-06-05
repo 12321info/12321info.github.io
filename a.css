@@ -67,7 +67,7 @@ letter-spacing: initial;
 
 #d {
 animation: trs 1s ease-out 0s 1 normal;
--webkit-animation: trs 1s ease-in 0s 1 normal;
+-webkit-animation: trs .5s linear 0s 2 normal;
 }
 @keyframes trs {0% {transform:translate(0,20%);
 -webkit-transform:translate(0,20%);}
