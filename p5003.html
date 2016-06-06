@@ -85,14 +85,15 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&
 }
 }
 }
-var i0=ar[0][4].length; if (i0) {
-s0+="</div><div class='algnL dn1em btn'>";
-if (ar[0][4][0].length) {s0+="<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
+var i0=ar[0][4].length;
+if (i0) {
+s0+="</div><div class='flL btn'>";
+if (ar[0][4][0].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
 if (ar[0][4][1].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][1]+"'>- 音 -</a>";}
 }
 if (nx) {
 l=l+f+1;
-s0+="</div><div class='flR dnward dnw2 fsr'><a href='"+ar[l][2]+".html' class='sdward'><span>"+ar[l][0]+"</span></a>";
+s0+="</div><div class='dnward dnw2 fsr'><a href='"+ar[l][2]+".html' class='sdward'><span>"+ar[l][0]+"</span></a>";
 }
 } else {
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
