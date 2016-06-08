@@ -44,9 +44,9 @@ document.getElementsByTagName('head')[0].appendChild (e);*/
 ["窓表示","aa"],
 ["（ネットワークカメラ）","aa"],
 ["（PC用モニター）","aa","5000"],
-["（次）オーディオ","aa"]];*/
+["次　オーディオ","aa","000"]];*/
 
-var ar=[[1,"照明","多機能照明","情報を写しだす仕組み",["http://matome","http://soundc"]],
+var ar=[[0,"上　照明","多機能照明","情報を写しだす仕組み",["http://matome","http://soundc"]],
 ["テレビ","テ|レビ","xxx","3"],
 ["視聴端末","","xxx"],
 ["録画機","録|画","xxx"],
@@ -59,16 +59,16 @@ var ar=[[1,"照明","多機能照明","情報を写しだす仕組み",["http://
 ["（ネットワークカメラ）","","xxx"],
 ["（PC用モニター）","","xxx"],
 ["http://www.amazon.co.jp/gp/product/B00N0ISSHQ/?ie=UTF8&amp;link_code=as3&amp;tag=satmgzrnt-22"],
-["（次）オーディオ","xxx","0001"]];
+["次　オーディオ","xxx","0001"]];
 
 var o=document.getElementById('d');
 var r=window.location.href.split('/');
 var l=r.length;
 var s="",s0="",s1=r[l-1];
-var nx=ar[0][0]&1;
+/*var nx=ar[0][0]&1;                  use more*/
 if(ar[1].length>3) {
 var f=ar[1][3]-0;
-l=ar.length-1-f-nx*1;
+l=ar.length-1-f-1;
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
 for(n=0;n<l;n++){
 if(n>1 && ar[n+1].length>3) {
@@ -94,23 +94,21 @@ s0+="</div><div class='flL btn'>";
 if (ar[0][4][0].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
 if (ar[0][4][1].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][1]+"'>- 音 -</a>";}
 }
-if (nx) {
 l=l+f+1;
-s0+="</div><div class='algnR dn-1em dnward dnw2 fsr'><a href='"+ar[l][2]+".html' class='sdward'><span>"+ar[l][0]+"</span></a>";
-}
 } else {
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
 s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
 var x=0,y=0; var s2="";
-l=ar.length-1;
+l=ar.length-2;
 for(n=0;n<l;n++){
 y=ar[n+1].length>2?1:0;
 s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
 s0+="<a href='"+s2+".html'"+(y?" class='sdward'":"")+"><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
+} l++;
 }
-}
+s0+="</div><div class='algnR dn-1em dnward dnw2 fsr'><a href='"+ar[l][2]+".html' class='sdward'><span>"+ar[l][0]+"</span></a>";
 l=s1.length;
 s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"/";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
