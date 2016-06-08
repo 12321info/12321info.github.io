@@ -87,7 +87,7 @@ animation: trs .05s ease-out 0s 8 normal;
 .ipt{border:none;background-color:#eee;}
 .sbt{background-color:#999;color:#fff;border:none;height:1.8em;text-align:center;}
 .sbt:hover{background-color:#444;color:#fff;}
-.algnL {text-align: left;}.algnR {text-align: right;margin-right:2em;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flrrr {font-size: 2em;}
+.algnL {text-align: left;}.algnR {text-align: right;margin-right:1rem;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flrrr {font-size: 2em;}
 .lh25 {line-height: 2.5em ;}.mgnL1 {margin-left: 1em;}
 .lh0 {line-height: 1em ;}
 .lh0 a {word-wrap: break-word;}
