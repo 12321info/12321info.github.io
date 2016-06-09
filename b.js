@@ -1,6 +1,6 @@
 var ar=window.location.href.split('/');var l=ar.length;var s1=ar[l-1];
 var o=document.getElementById("c");
-var s0="<div class='algnC title'><a class='up2em xbd c1' href=''>近未来のキーワード</a></div>"+(document.body.clientWidth<500?"<br /><br /><br /><br />":"<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />")+"<form method='POST' class='algnR dn1em' name='formjs0' onsubmit='return onsub0()'><input name='txbx0' placeholder='' type='text' class='algnR ipt'/><input value='検 索' type='submit' class='sbt'/></form>　<div class='algnL fsr lsp03'>　"+s1.substring(1, s1.lastIndexOf('.html'))+"  </div>";
+var s0="<div class='algnC title'><a class='up2em xbd c1' href=''>近未来のキーワード</a></div>"+(document.body.clientWidth<500?"<br /><br /><br /><br />":"<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />")+"<form method='POST' class='algnR dn1em' name='formjs0' onsubmit='return onsub0()'><input name='txbx0' placeholder='' type='text' class='algnR ipt'/><input value='検 索' type='submit' class='sbt'/>　</form><div class='algnL fsr lsp03'>　"+s1.substring(1, s1.lastIndexOf('.html'))+"  </div>";
 o.insertAdjacentHTML("beforeend",s0);
 
 var pr=[["＝運営協力「０○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝","https://google.com","＝最高協力「０○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝","https://google.co.jp"],
