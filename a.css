@@ -41,6 +41,7 @@ margin:0 2%;
 .btn a {font-size:larger;letter-spacing:.1em}
 .dnxem{margin-bottom: 1.2em;}
 .flrx {font-size: 2em;}
+.lh25 {line-height: 3.5em ;}
 .lsp01 {letter-spacing: .1em;}
 .lsp03 {letter-spacing: .3em;}
 }
@@ -61,6 +62,7 @@ letter-spacing:initial;
 .upw2 a {font-size: 1em;}/*.upward a:hover {margin: auto 0;}*/
 .dnxem{margin-bottom: .8em;}
 .flrx {font-size: normal;}
+.lh25 {line-height: 2.5em ;}
 .lsp01 {letter-spacing: initial;}/*use more!*/
 .lsp03 {letter-spacing: .1em;}
 }
@@ -88,7 +90,7 @@ animation: trs .05s ease-out 0s 8 normal;
 .sbt{background-color:#999;color:#fff;border:none;height:1.8em;text-align:center;}
 .sbt:hover{background-color:#444;color:#fff;}
 .algnL {text-align: left;}.algnR {text-align: right;}.algnC {text-align: center;}.xbd {font-weight: normal;}.fsr {font-size: smaller;}.flr {font-size: larger;}.flrrr {font-size: 2em;}
-.lh25 {line-height: 2.5em ;}.mgnL1 {margin-left: 1em;}
+.mgnL1 {margin-left: 1em;}
 .lh0 {line-height: 1em ;}
 .lh0 a {word-wrap: break-word;}
 .blk2 div{display:inline-block;width: 45%;}
