@@ -85,13 +85,12 @@ s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em 
 s=s1.substring(0, s1.lastIndexOf(".html"));
 var alf="abcdefghijklmnopqrstuvwxyz";
 var x=0,y=0; var s2="";
-l=ar.length-2;
 for(n=0;n<l;n++){
 y=ar[n+1].length>2?(n>0?1:0):0;
 s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
 s0+="<a href='"+s2+".html'"+(y?" class='sdward'":"")+"><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
-} l++; s="";
+} s="";
 }
 alert("2");
 if (f>0) {
