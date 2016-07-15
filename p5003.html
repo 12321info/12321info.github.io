@@ -33,17 +33,19 @@ var e = document.createElement('script'); e.src = f; e.type = "text/javascript";
 document.getElementsByTagName('head')[0].appendChild (e);*/
 
 var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
-["テレビ","aa"],
+["テレビ1","aa","2"],
 ["視聴端末","aa"],
 ["録画機","aa"],
 ["ゲーム機","aa"],
 ["プロジェクター","aa"],
 ["立体映像","aa"],
-["壁表示","aa","5000"],
+["＞壁表示","aa","5000"],
 ["鏡表示","aa"],
 ["窓表示","aa"],
-["（ネットワークカメラ）","aa"],
-["（PC用モニター）","aa","5000"],
+["ネットワークカメラ","aa"],
+["PC用モニター","aa","5000"],
+["＞鏡表示","","xxx","043"],
+["テレビ","テ|レビ","xxx"],
 ["次　オーディオ","aa","000"]];
 
 /*var ar=[[0,"上　照明","多機能照明","情報を写しだす仕組み",["http://matome","http://soundc"]],
@@ -64,11 +66,10 @@ var ar=[[0,"照明","多機能照明","情報を写しだす仕組み"],
 var o=document.getElementById('d');
 var r=window.location.href.split('/');
 var l=r.length;
-var s="",s0="",s1=r[l-1];
+var s=ar[1].length>3?"1":"",s0="",s1=r[l-1];
 /*var nx=ar[0][0]&1;                  use more*/
-if(ar[1].length>3) {
-var f=ar[1][3]-0;
-l=ar.length-1-f-1;
+var f=ar[1][2+s.length]-0; l=ar.length-1-f-1;
+if(s+0>0) {
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
 for(n=0;n<l;n++){
 if(n>1 && ar[n+1].length>3) {
@@ -76,25 +77,7 @@ s0+="<a href='p"+ar[n+1][3]+".html'>"+ar[n+1][0]+"</a> ";
 } else {
 s=ar[n+1][1];
 s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1][0]:s)+"&tbm=nws'>"+ar[n+1][0]+"</a> ";
-}}
-if (f>0) {
-s0+="</div><div class='algnC dn1em lh25 btn'><span class='lsp03 xbd'>代表：</span>";
-for(n=0;n<f;n++){
-if (ar[n+1+l].length<2) {
-s0+="<a href='"+ar[n+1+l][0]+"' class='ka'>- 価 -</a> ";
-} else {
-s=ar[n+1+l][1];
-s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&tbm=nws'>"+ar[n+1+l][0]+"</a> ";
-}
-}
-}
-var i0=ar[0][4].length;
-if (i0) {
-s0+="</div><div class='flL btn'>";
-if (ar[0][4][0].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
-if (ar[0][4][1].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][1]+"'>- 音 -</a>";}
-}
-l=l+f+1;
+}} s="1";
 } else {
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='dnward dnw2'>";
 s=s1.substring(0, s1.lastIndexOf(".html"));
@@ -106,8 +89,27 @@ y=ar[n+1].length>2?1:0;
 s2=y?"p"+ar[n+1][2]:s+(x<10?x:x<36?alf.charAt(x-10):"-");
 s0+="<a href='"+s2+".html'"+(y?" class='sdward'":"")+"><span>"+ar[n+1][0]+"</span></a>";
 if (!y) x++;
-} l++;
+} l++; s="":
 }
+
+if (f>0) {
+s0+="</div><div class='algnC dn1em lh25 btn'>"; if(s+0>0) {s0+="<span class='lsp03 xbd'>代表：</span>";}
+for(n=0;n<f;n++){
+if (ar[n+1+l].length<2) {
+s0+="<a href='"+ar[n+1+l][0]+"' class='ka'>- 価 -</a> ";
+} else {
+s=ar[n+1+l][1];
+s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&tbm=nws'>"+ar[n+1+l][0]+"</a> ";
+}
+}
+} l=l+f+1;
+var i0=ar[0][4].length;
+if (i0) {
+s0+="</div><div class='flL btn'>";
+if (ar[0][4][0].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
+if (ar[0][4][1].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][1]+"'>- 音 -</a>";}
+}
+
 s0+="</div><div class='algnR dn-1em dnward dnw2 fsr'><a href='p"+ar[l][2]+".html' class='sdward'><span>"+ar[l][0]+"</span></a>";
 l=s1.length;
 s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"/";
