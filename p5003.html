@@ -63,6 +63,7 @@ var ar=[[0,"上　照明","多機能照明","情報を写しだす仕組み",["h
 ["http://www.amazon.co.jp/gp/product/B00N0ISSHQ/?ie=UTF8&amp;link_code=as3&amp;tag=satmgzrnt-22"],
 ["次　オーディオ","xxx","0000"]];
 
+alert("0");
 var o=document.getElementById('d');
 var r=window.location.href.split('/');
 var l=r.length;
@@ -70,6 +71,7 @@ var s=ar[1].length>3?"1":"",s0="",s1=r[l-1];
 /*var nx=ar[0][0]&1;                  use more*/
 var f=ar[1][2+s.length]-0; l=ar.length-1-f-1;
 if(s+0>0) {
+  alert("1");
 s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
 for(n=0;n<l;n++){
 if(n>1 && ar[n+1].length>3) {
@@ -91,7 +93,7 @@ s0+="<a href='"+s2+".html'"+(y?" class='sdward'":"")+"><span>"+ar[n+1][0]+"</spa
 if (!y) x++;
 } l++; s="":
 }
-
+alert("2");
 if (f>0) {
 s0+="</div><div class='algnC dn1em lh25 btn'>"; if(s+0>0) {s0+="<span class='lsp03 xbd'>代表：</span>";}
 for(n=0;n<f;n++){
@@ -103,18 +105,23 @@ s0+="<a href='https://www.google.co.jp/search?q="+(s.length<1?ar[n+1+l][0]:s)+"&
 }
 }
 } l=l+f+1;
+alert("3");
+
+
 var i0=ar[0][4].length;
 if (i0) {
 s0+="</div><div class='flL btn'>";
 if (ar[0][4][0].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][0]+"'>- 例 -</a>";}
 if (ar[0][4][1].length) {s0+="&nbsp&nbsp<a href='"+ar[0][4][1]+"'>- 音 -</a>";}
 }
+alert("4");
 
 s0+="</div><div class='algnR dn-1em dnward dnw2 fsr'><a href='p"+ar[l][2]+".html' class='sdward'><span>"+ar[l][0]+"</span></a>";
 l=s1.length;
 s=l>7?s1.substring(0,l-6)+s1.substring(l-5):"/";
 s0+="</div><div class='algnC upward upw2'><a href='"+s+"'>"+ar[0][1]+"</a></div>"
 o.insertAdjacentHTML("beforeend",s0);
+alert("5");
 
 (function () {TouchPoint.color = 'blue';TouchPoint.init(o);})();
 /*var e = document.createElement('script'); e.src = "b.js"; e.type = "text/javascript";
