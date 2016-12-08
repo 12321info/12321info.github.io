@@ -1,16 +1,20 @@
-var elem = document.getElementById("test");
+
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
 
 /*var newtext = document.createTextNode(”てきす”);
 elem.appendChild(newtext);*/
 
+
+/*
+
+var elem = document.getElementById("test");
+
 var osVer = "iPhone";
 if (navigator.userAgent.indexOf(osVer)>0){
 alert(osVer);
 }
 alert("osV");
-
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
@@ -24,6 +28,8 @@ for(i=0;i<10;i++){
 document.getElementById('test').insertAdjacentHTML('beforeend',list);
 }
 })();
+
+*/
 
 /*s="「最先端見える化」計画";
 var u=window.location.href;
@@ -43,12 +49,16 @@ alert("oh12221h");
 },false);//need false!
 }*/
 
+/*
+
 var el = document.getElementsByClassName("socialCss")[0];
 el.style.transition = 'opacity 5s';
 el.style.opacity = '0.15';
 el.addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
+
+*/
 
 alert("oh12h");
 
