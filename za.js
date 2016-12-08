@@ -6,7 +6,6 @@
 elem.appendChild(newtext);*/
 
 
-/*
 
 var elem = document.getElementById("test");
 
@@ -29,12 +28,11 @@ document.getElementById('test').insertAdjacentHTML('beforeend',list);
 }
 })();
 
-*/
 
 /*s="「最先端見える化」計画";
 var u=window.location.href;
 var r=[
-'"http://twitter.com/share?text=" + s + "&url=" + u;',
+'"http://twitter.com/share?text=" + s + "&url=" + u',
 '"http://line.me/R/msg/text/?" + u + "%0d%0a" + s',
 '"http://www.facebook.com/sharer/sharer.php?u=" + u + "&t=" + s',
 '"http://plus.google.com/share?url=" + u',
@@ -49,7 +47,6 @@ alert("oh12221h");
 },false);//need false!
 }*/
 
-/*
 
 var el = document.getElementsByClassName("socialCss")[0];
 el.style.transition = 'opacity 5s';
@@ -58,7 +55,6 @@ el.addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
 
-*/
 
 alert("oh12h");
 
