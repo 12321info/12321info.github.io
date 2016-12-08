@@ -7,8 +7,10 @@ elem.appendChild(newtext);*/
 
 var osVer = "iPhone";
 if (navigator.userAgent.indexOf(osVer)>0){
-//alert(osVer);
+alert(osVer);
 }
+alert("osV");
+
 
 var html="<b>BOLD</b>";
 var position="afterbegin";
