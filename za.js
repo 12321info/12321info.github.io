@@ -1,9 +1,10 @@
 var el= document.getElementsByClassName("twitterBtn")[0];
-el.addEventListener( "click", function(){
+el.addEventListener("click", function(){
+  alert("oh0h");
 window.location.href="http://twitter.com/share?text=" + $("title").text() + "&url=" + url;
 });
 
-//alert("oh0h");
+//
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
