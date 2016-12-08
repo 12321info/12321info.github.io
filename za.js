@@ -31,13 +31,13 @@ document.getElementById('test').insertAdjacentHTML('beforeend',list);
 s="「最先端見える化」計画";
 var u=window.location.href;
 var r=[
-'"http://twitter.com/share?text=" + s + "&url=" + u',
-'"http://line.me/R/msg/text/?" + u + "%0d%0a" + s',
-'"http://www.facebook.com/sharer/sharer.php?u=" + u + "&t=" + s',
-'"http://plus.google.com/share?url=" + u',
-'"http://www.linkedin.com/shareArticle?mini=true&url=" + u + "&title=" + s',
-'"http://pinterest.com/pin/create/button/?url=" + u + "&description=" + s',
-'"http://b.hatena.ne.jp/add?mode=confirm&url=" + u + "&title=" + s'];
+"http://twitter.com/share?text=" + s + "&url=" + u,
+"http://line.me/R/msg/text/?" + u + "%0d%0a" + s,
+"http://www.facebook.com/sharer/sharer.php?u=" + u + "&t=" + s,
+"http://plus.google.com/share?url=" + u,
+"http://www.linkedin.com/shareArticle?mini=true&url=" + u + "&title=" + s,
+"http://pinterest.com/pin/create/button/?url=" + u + "&description=" + s,
+"http://b.hatena.ne.jp/add?mode=confirm&url=" + u + "&title=" + s];
 
 var el = document.getElementsByClassName("socialCss");
 for(i=0;i<7;i++){
@@ -55,7 +55,7 @@ alert("oh12221h");
 },false);//need false!
 */
 
-alert("oh3h "+r[0]);
+alert("oh4h "+r[0]);
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
