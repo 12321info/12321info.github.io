@@ -43,6 +43,7 @@ var el = document.getElementsByClassName("socialCss");
 for(i=0;i<7;i++){
 el[i].addEventListener("click",function(){
 alert("oh12221h");
+window.location.href=r[i];
 },false);//need false!
 }
 
@@ -55,7 +56,7 @@ alert("oh12221h");
 },false);//need false!
 */
 
-alert("oh4h "+r[0]);
+alert("oh5 "+r[0]);
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
