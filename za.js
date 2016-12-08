@@ -1,3 +1,10 @@
+  if (document.readyState !== 'loading') {
+    eventHandler();
+  } else {
+    document.addEventListener('DOMContentLoaded',function(){
+  alert("oh11h");});
+  }
+
 var el= document.getElementsByClassName("twitterBtn")[0];
 el.addEventListener("click", function(){
   alert("oh0h");
