@@ -48,7 +48,7 @@ el.addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
 
-alert("oh1h");
+alert("oh12h");
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
