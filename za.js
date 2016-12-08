@@ -1,19 +1,3 @@
-  if (document.readyState !== 'loading') {
-    eventHandler();
-  } else {
-    document.addEventListener('DOMContentLoaded',function(){
-  alert("oh11h");});
-  }
-
-document.getElementById("sns0").addEventListener("click",function(){
-alert("oh12221h");
-});
-/*var el= document.getElementsByClassName("twitterBtn")[0];
-el.addEventListener("click", function(){
-  alert("oh0h");
-window.location.href="http://twitter.com/share?text=" + $("title").text() + "&url=" + url;
-*/
-
 //
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
