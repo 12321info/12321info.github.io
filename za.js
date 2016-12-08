@@ -1,4 +1,9 @@
-﻿//alert("oh0h");
+var el= document.getElementsByClassName("twitterBtn")[0];
+el.addEventListener( "click", function(){
+window.location.href="http://twitter.com/share?text=" + $("title").text() + "&url=" + url;
+});
+
+//alert("oh0h");
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
 /*elem.innerHTML="000";*/
