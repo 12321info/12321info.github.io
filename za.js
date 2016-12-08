@@ -42,7 +42,7 @@ var r=[
 var el = document.getElementsByClassName("socialCss");
 for(i=0;i<7;i++){
 el[i].addEventListener("click",function(){
-alert("oh12221h");
+alert("oh12221h"+r[i]);
 window.location.href=r[i];
 },false);//need false!
 }
