@@ -13,9 +13,8 @@ var r=[
 "http://www.linkedin.com/shareArticle?mini=true&url=" + u + "&title=" + s,
 "http://pinterest.com/pin/create/button/?url=" + u + "&description=" + s,
 "http://b.hatena.ne.jp/add?mode=confirm&url=" + u + "&title=" + s];
-
-/*var el = document.getElementsByClassName("socialCss");
-for(i=1;i<7;i++){
+var el = document.getElementsByClassName("socialCss");
+/*for(i=1;i<7;i++){
 el[i].addEventListener("click",function(){
 alert("oh2h"+r[i]);
 window.location.href=r[i];
