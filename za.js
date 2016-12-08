@@ -1,5 +1,4 @@
 
-alert("oh1h");
 var el = document.getElementById("sns0");
 el.style.transition = 'opacity 5s';
 el.style.opacity = '0.15';
@@ -30,6 +29,7 @@ for(i=0;i<10;i++){
 document.getElementById('test').insertAdjacentHTML('beforeend',list);
 }
 })();
+alert("oh1h");
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
