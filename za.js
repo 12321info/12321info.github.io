@@ -24,7 +24,7 @@ document.getElementById('test').insertAdjacentHTML('beforeend',list);
 })();
 s="「最先端見える化」計画";
 var u=window.location.href;
-r=[
+var r=[
 '"http://twitter.com/share?text=" + s + "&url=" + u;',
 '"http://line.me/R/msg/text/?" + u + "%0d%0a" + s',
 '"http://www.facebook.com/sharer/sharer.php?u=" + u + "&t=" + s',
