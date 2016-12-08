@@ -39,21 +39,21 @@ var r=[
 '"http://pinterest.com/pin/create/button/?url=" + u + "&description=" + s',
 '"http://b.hatena.ne.jp/add?mode=confirm&url=" + u + "&title=" + s'];
 
-/*var el = document.getElementsByClassName("socialCss");
+var el = document.getElementsByClassName("socialCss");
 for(i=0;i<7;i++){
 el[i].addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
-}*/
+}
 
-
+/*
 var el = document.getElementsByClassName("socialCss")[0];
 el.style.transition = 'opacity 5s';
 el.style.opacity = '0.15';
 el.addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
-
+*/
 
 alert("oh3h "+r[0]);
 
