@@ -1,3 +1,8 @@
+
+
+var el = document.getElementById("sns0");
+el.style.transition = 'opacity 5s';
+el.style.opacity = '0.15';
 //
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
