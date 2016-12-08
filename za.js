@@ -21,6 +21,7 @@ alert("oh2h"+r[i]);
 window.location.href=r[i];
 },false);//need false!
 }*/
+alert("o"+r[0]);
 
 el[0].addEventListener("click",function(){
 window.location.href=r[0];
