@@ -23,7 +23,7 @@ document.getElementById('test').insertAdjacentHTML('beforeend',list);
 }
 })();
 
-s="「最先端見える化」計画";
+/*s="「最先端見える化」計画";
 var u=window.location.href;
 var r=[
 '"http://twitter.com/share?text=" + s + "&url=" + u;',
@@ -32,16 +32,14 @@ var r=[
 '"http://plus.google.com/share?url=" + u',
 '"http://www.linkedin.com/shareArticle?mini=true&url=" + u + "&title=" + s',
 '"http://pinterest.com/pin/create/button/?url=" + u + "&description=" + s',
-'"http://b.hatena.ne.jp/add?mode=confirm&url=" + u + "&title=" + s'];
-var el = document.getElementsByClass("socialCss");
+'"http://b.hatena.ne.jp/add?mode=confirm&url=" + u + "&title=" + s'];*/
 
-/*for(i=0;i<7;i++){
+/*var el = document.getElementsByClass("socialCss");
+for(i=0;i<7;i++){
 el[i].addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
 }*/
-alert("oh1h");
-
 
 var el = document.getElementsByClass("socialCss")[0];
 el.style.transition = 'opacity 5s';
@@ -49,6 +47,8 @@ el.style.opacity = '0.15';
 el.addEventListener("click",function(){
 alert("oh12221h");
 },false);//need false!
+
+alert("oh1h");
 
 
 
