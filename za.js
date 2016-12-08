@@ -24,12 +24,12 @@ document.getElementById('test').insertAdjacentHTML('beforeend',list);
 })();
 alert("oh1h");
 
-var el = document.getElementById("sns0");
+var el = document.getElementsByClass("socialCss")[0];
 el.style.transition = 'opacity 5s';
 el.style.opacity = '0.15';
 el.addEventListener("click",function(){
 alert("oh12221h");
-},false);
+},false);//need false!
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
