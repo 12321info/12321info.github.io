@@ -2,6 +2,7 @@ var osVer = "iPhone";
 if (navigator.userAgent.indexOf(osVer)>0){
 //alert(osVer);
 }
+alert("osV1");
 
 s="#最先端見える化 計画";
 var u=window.location.href;
