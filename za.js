@@ -29,7 +29,7 @@ el.style.transition = 'opacity 5s';
 el.style.opacity = '0.15';
 el.addEventListener("click",function(){
 alert("oh12221h");
-});
+},false);
 
 /*var el=document.getElementsByTagName('body')[0];
 el.parentNode.insertBefore(newEl, target);*/
