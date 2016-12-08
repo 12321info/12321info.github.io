@@ -1,8 +1,12 @@
 
-
+alert("oh1h");
 var el = document.getElementById("sns0");
 el.style.transition = 'opacity 5s';
 el.style.opacity = '0.15';
+el.addEventListener("click",function(){
+alert("oh12221h");
+});
+
 //
 var elem = document.getElementById("test");
 /*var elem = document.querySelector('test');*/
