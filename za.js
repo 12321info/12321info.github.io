@@ -20,7 +20,7 @@ alert("oh2h"+r[i]);
 window.location.href=r[i];
 },false);//need false!
 }*/
-alert(el.count+" o "+r[0]);
+alert(el.length+" o "+r[0]);
 el[0].addEventListener("click",function(){
 window.location.href=r[0];
 },false);
@@ -43,7 +43,7 @@ el[6].addEventListener("click",function(){
 window.location.href=r[6];
 },false);
 
-if (el.count>6) (
+if (el.length>6) (
 el[7].addEventListener("click",function(){
 window.location.href=r[0];
 },false);
