@@ -11,6 +11,38 @@
 </head> 
 <body>
 <style>
+.container {
+  margin: 1em auto;
+  padding: 1em;
+	perspective: 1200px;
+	width: 250px;
+	height: 250px;
+}.spinner {
+	animation: 16s linear infinite spinner;
+	transform-style: preserve-3d;
+}
+@keyframes spinner {
+  /* from {    transform: rotateY(0deg);  } */
+  to {transform: rotateY(-360deg);}
+}.spinner:hover {
+	animation-play-state: paused;
+}.spinner img {
+	position: absolute;
+	border: 0 solid #ccc;
+}.face {
+	padding: 0px 7px;
+}.face-1 {
+	transform: /* rotateY(0deg) */ translateZ(175px);
+}.face-2 {
+	transform: rotateY(72deg) translateZ(175px);
+}.face-3 {
+	transform: rotateY(144deg) translateZ(175px);
+}.face-4 {
+	transform: rotateY(216deg) translateZ(175px);
+}.face-5 {
+	transform: rotateY(288deg) translateZ(175px);
+}
+
   body {
   /*padding-left: 1.5em;
   text-align: center;*/
@@ -74,6 +106,15 @@ line-height:1.8em;
   
 </style>
 
+<div class="container">
+  <div class="spinner">
+		<img class="face face-1" src="mieruka.png" width="250" height="250" alt="">
+		<img class="face face-2" src="mieruka.png" width="250" height="250" alt="">
+		<img class="face face-3" src="mieruka.png" width="250" height="250" alt="">
+		<img class="face face-4" src="mieruka.png" width="250" height="250" alt="">
+		<img class="face face-5" src="mieruka.png" width="250" height="250" alt="">
+	</div>
+</div>
 <p class="top"><img src="mieruka.png" width="250px" height="250px"><br>
 <span class="xl lsp5">#</span><span class="lsp5">最先端みえる化</span><br><a href="">[詳細はこちら]</a></p>
 <div id='social'>
