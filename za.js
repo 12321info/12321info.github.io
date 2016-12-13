@@ -5,7 +5,7 @@ if (navigator.userAgent.indexOf(osVer)>0){
 alert("osV1");
 
 t="最先端見える化";
-s="%23最先端見える化 計画";
+s="%23最先端見える化 計画%0D%0A～最適なキーワードリスト～埋もれるなネット資源～";
 var u=window.location.href;
 var r=[
 "http://twitter.com/share?text=" + s + "&url=" + u,
