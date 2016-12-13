@@ -1,8 +1,6 @@
+/*
 var osVer = "iPhone";
-if (navigator.userAgent.indexOf(osVer)>0){
-//alert(osVer);
-}
-alert("osV1");
+if (navigator.userAgent.indexOf(osVer)>0){alert(osVer);} else {alert("osV1");}*/
 
 t="最先端見える化";
 s="%23最先端見える化 計画%0D%0A～最適なキーワードリスト～埋もれるなネット資源～";
@@ -22,7 +20,7 @@ alert("oh2h"+r[i]);
 window.location.href=r[i];
 },false);//need false!
 }*/
-alert("o"+r[0]);
+//alert("o"+r[0]);
 
 el[0].addEventListener("click",function(){
 window.location.href=r[0];
