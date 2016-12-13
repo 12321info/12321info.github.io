@@ -20,8 +20,7 @@ alert("oh2h"+r[i]);
 window.location.href=r[i];
 },false);//need false!
 }*/
-//alert("o"+r[0]);
-
+alert(el.count+" o "+r[0]);
 el[0].addEventListener("click",function(){
 window.location.href=r[0];
 },false);
@@ -44,6 +43,29 @@ el[6].addEventListener("click",function(){
 window.location.href=r[6];
 },false);
 
+if (el.count>6) (
+el[7].addEventListener("click",function(){
+window.location.href=r[0];
+},false);
+el[8].addEventListener("click",function(){
+window.location.href=r[1];
+},false);
+el[9].addEventListener("click",function(){
+window.location.href=r[2];
+},false);
+el[10].addEventListener("click",function(){
+window.location.href=r[3];
+},false);
+el[11].addEventListener("click",function(){
+window.location.href=r[4];
+},false);
+el[12].addEventListener("click",function(){
+window.location.href=r[5];
+},false);
+el[13].addEventListener("click",function(){
+window.location.href=r[6];
+},false);
+)
 /*
 var el = document.getElementsByClassName("socialCss")[0];
 el.style.transition = 'opacity 5s';
