@@ -43,7 +43,7 @@ el[6].addEventListener("click",function(){
 window.location.href=r[6];
 },false);
 
-if (el.length>6) (
+if (el.length>7) {
 el[7].addEventListener("click",function(){
 window.location.href=r[0];
 },false);
@@ -65,7 +65,7 @@ window.location.href=r[5];
 el[13].addEventListener("click",function(){
 window.location.href=r[6];
 },false);
-)
+}
 /*
 var el = document.getElementsByClassName("socialCss")[0];
 el.style.transition = 'opacity 5s';
