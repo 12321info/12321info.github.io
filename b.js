@@ -9,7 +9,7 @@ var pr=[["＝運営協力「０○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○�
 var c0=s1.substring(1,2);
 if (c0>4) c0=4;
 o=document.getElementById("e");
-s0="<div class='algnC up15em dn1em blk2 c1'><div class='dnxem lh0'><a href='"+pr[c0][1]+"'>"+pr[c0][0]+"</a></div><div class='dnxem lh0'><a href='"+pr[c0][3]+"'>"+pr[c0][2]+"</a></div><div class='algnC c1'><a href='"+c0+"z.html'>[ ご支援 ]</a></div></div><div class='algnR rt2em dn1em upward upw2'><a href='/'>トップページ</a></div><div class='algnR fsr xbd c0'>(c)2015-2016 How20XX All Rights Reserved.　</div>";
+s0="<div class='up15em dn1em c1'><div class='flL algnL dnxem lh0'><a href='"+pr[c0][1]+"'>"+pr[c0][0]+"</a></div><div class='algnR dnxem lh0'><a href='"+pr[c0][3]+"'>"+pr[c0][2]+"</a></div><div class='algnC c1'><a href='"+c0+"z.html'>[ ご支援 ]</a></div></div><div class='algnR rt2em dn1em upward upw2'><a href='/'>トップページ</a></div><div class='algnR fsr xbd c0'>(c)2015-2016 How20XX All Rights Reserved.　</div>";
 o.insertAdjacentHTML("beforeend",s0);
 
 function onsub0(){
