@@ -1,4 +1,5 @@
 document.addEventListener('click', function (e) {
+console.log("any");alert("any");
 var target = e.target;
 if (target.parentNode.id === 'd'){
     console.log("id d");
