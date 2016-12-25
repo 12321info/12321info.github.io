@@ -1,4 +1,4 @@
-console.log("any9");alert("any12");
+console.log("any13");alert("any13");
 
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0; var bk=["0"];
@@ -17,7 +17,7 @@ var nw=target.parentNode.id;
 script.src=nw+".js";
 script.id="djs";
 bk.push(nw);
-document.getElementsByClassName("algnL fsr lsp03c")[0].innerHTML=nw;
+document.getElementsByClassName("algnL fsr lsp03c")[0].innerHTML="xxxxxx";
 document.body.appendChild(script);
 console.log(bk+ "bk / src "+script.src);
 }
