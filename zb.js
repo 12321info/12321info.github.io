@@ -14,7 +14,8 @@ var tpp = target.parentNode.parentNode;
 for (var i =tpp.childNodes.length-1; i>=0; i--) {tpp.removeChild(tpp.childNodes[i]);}
 var script = document.createElement("script");
 script.src = target.parentNode.id+".js";
-tpp.appendChild(script);
+script.id="djs";
+document.body.appendChild(script);
 console.log("src "+script.src);
 }
 }}, false);
