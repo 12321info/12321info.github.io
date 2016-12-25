@@ -17,7 +17,7 @@ var script = document.createElement("script");
 var nw=target.parentNode.id;
 script.src=nw+".js";
 script.id="djs";
-/*document.getElementsByClassName("algnL fsr lsp03c")[0].innerHTML="xxxxxx";*/
+document.getElementById("here").innerHTML="xxxxxx";
 document.body.appendChild(script);
 console.log("src "+script.src);
 bk.push(nw);
