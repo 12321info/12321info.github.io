@@ -1,4 +1,11 @@
+console.log("any1");
 
+document.addEventListener('click', function (e) {
+console.log("any");alert("any");
+var target = e.target;
+if (target.parentNode.id === 'd'){
+    console.log("id d");}
+}, false);
 
 var ar=window.location.href.split('/');var l=ar.length;var s1=ar[l-1];
 var o=document.getElementById("c");
