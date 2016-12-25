@@ -1,4 +1,4 @@
-console.log("any15");alert("any15");
+console.log("any15");alert("any16");
 
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0; var bk=["0"];
@@ -8,6 +8,7 @@ console.log("anye");
 var target = e.target;
 /*if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.id === 'zp00'){console.log("zp00");}*/
+if (target.parentNode.className === 'dnward dnw2'){console.log("ppppp");}
 if (target.parentNode.parentNode.className === 'dnward dnw2'){
 console.log("dnward dnw2");
 var tpp = target.parentNode.parentNode;
