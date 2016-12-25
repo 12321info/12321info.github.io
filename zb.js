@@ -1,4 +1,4 @@
-console.log("any15");alert("any16");
+console.log("any15");alert("any17");
 
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0; var bk=["0"];
@@ -18,11 +18,11 @@ var script = document.createElement("script");
 var nw=target.parentNode.id;
 script.src=nw+".js";
 script.id="djs";
-document.getElementById("here").innerHTML="xxxxxx";
 document.body.appendChild(script);
 console.log("src "+script.src);
 bk.push(nw);
 console.log(bk+ "bk");
+document.getElementById("here").innerHTML=bk;
 }
 }}, false);
 
