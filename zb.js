@@ -1,34 +1,4 @@
-document.addEventListener('click', function (e) {
-console.log("any");alert("any");
-var target = e.target;
-if (target.parentNode.id === 'd'){
-    console.log("id d");
-  if (target.tagName === 'A'){
-    console.log("id "+target.id);
-      if (target.id === 'A'){
-var script = document.createElement("script");
-script.src = "z"+id+".js";
-document.body.appendChild(script);
-console.log("src "+script.src);
-  } else {
-    console.log("4321");
-  }
-}
-var form = target.form;
-if (target.tagName === 'INPUT' && target.type === 'button') {switch (target.id) {
-      case 'foo_button':
-        form.action = 'foo.php';
-        form.submit();
-        console.log("a");
-        break;
-      case 'bar_button':
-        form.action = 'bar.php';
-        form.submit();
-        console.log("2222");
-        break;
-      default:break;
-}}
-}, false);
+
 
 var ar=window.location.href.split('/');var l=ar.length;var s1=ar[l-1];
 var o=document.getElementById("c");
