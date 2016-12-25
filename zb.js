@@ -1,11 +1,11 @@
-console.log("any9");alert("any10");
+console.log("any9");alert("any11");
 
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0;
 if (istap==="touchend"){
-document.addEventListener('touchmove',function(move){move=1;});
+document.addEventListener('touchmove',function(e){move=1;});
 }
-document.addEventListener(istap,function(move) {
+document.addEventListener(istap,function(e) {
 if (!move) {console.log("anyi")}
 else{console.log("anye");alert("move"); move=0;}
 var target = e.target;
