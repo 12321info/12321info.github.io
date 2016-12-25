@@ -1,5 +1,5 @@
 console.log("any8");
-var istap = window.ontouchstart===null?"touchstart":"click";
+var istap = window.ontouchstart===null?"touchend":"click";
 document.addEventListener(istap, function (e) {
 console.log("any");
 var target = e.target;
