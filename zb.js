@@ -1,4 +1,4 @@
-console.log("any13");alert("any13");
+console.log("any14");alert("any13");
 
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0; var bk=["0"];
