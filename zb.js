@@ -2,30 +2,22 @@ console.log("any9");alert("any11");
 
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0;
-if (istap==="touchend"){
-document.addEventListener('touchmove',function(e){move=1;});
-}
-document.addEventListener(istap,function(e) {
-if (!move) {console.log("anyi")}
-else{console.log("anye");alert("move"); move=0;}
+if (istap==="touchend"){document.addEventListener('touchmove',function(e){move=1;});}
+document.addEventListener(istap,function(e) {if (!move) {console.log("anyi")} else {
+console.log("anye");alert("move"); move=0;
 var target = e.target;
-if (target.parentNode.id === 'd'){console.log("id d");}
-if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
-if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
-if (target.parentNode.id === 'zp00'){
-  console.log("zp00");
-}
-if (target.parentNode.parentNode.className === 'dnward'){console.log("dnward");}
+/*if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
+if (target.parentNode.id === 'zp00'){console.log("zp00");}*/
 if (target.parentNode.parentNode.className === 'dnward dnw2'){
-  console.log("dnward dnw2");
+console.log("dnward dnw2");
 var tpp = target.parentNode.parentNode;
 for (var i =tpp.childNodes.length-1; i>=0; i--) {tpp.removeChild(tpp.childNodes[i]);}
-  var script = document.createElement("script");
+var script = document.createElement("script");
 script.src = target.parentNode.id+".js";
-document.body.appendChild(script);
+tpp.appendChild(script);
 console.log("src "+script.src);
 }
-}, false);
+}}, false);
 
 var ar="https://topclear.net/p0.html"/*window.location.href*/.split('/');var l=ar.length;var s1=ar[l-1];
 var o=document.getElementById("c");
