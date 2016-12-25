@@ -1,4 +1,4 @@
-console.log("any5");
+console.log("any6");
 var istap = window.ontouchstart===null?"touchstart":"click";
 document.addEventListener(istap, function (e) {
 console.log("any");
@@ -8,13 +8,17 @@ if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.id === 'zp00'){
   console.log("zp00");
+}
+if (target.parentNode.parentNode.className === 'dnward'){console.log("dnward");}
+if (target.parentNode.parentNode.className === 'dnward dnw2'){
+  console.log("dnward dnw2");
+var tpp = target.parentNode.parentNode.className;
+for (var i =tpp.childNodes.length-1; i>=0; i--) {aNode.removeChild(rpp.childNodes[i]);}
   var script = document.createElement("script");
 script.src = target.parentNode.id+".js";
 document.body.appendChild(script);
 console.log("src "+script.src);
 }
-if (target.parentNode.parentNode.className === 'dnward'){console.log("dnward");}
-if (target.parentNode.parentNode.className === 'dnward dnw2'){console.log("dnward dnw2");}
 }, false);
 
 var ar="https://topclear.net/p0.html"/*window.location.href*/.split('/');var l=ar.length;var s1=ar[l-1];
