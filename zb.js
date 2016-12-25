@@ -1,9 +1,9 @@
-console.log("any9");alert("any11");
+console.log("any9");alert("any12");
 
 var istap = window.ontouchstart===null?"touchend":"click";
-var move=0;
+var move=0; var bk=["0"];
 if (istap==="touchend"){document.addEventListener('touchmove',function(e){move=1;});}
-document.addEventListener(istap,function(e) {if (move) {alert("move"); move=0;} else {
+document.addEventListener(istap,function(e) {if (move) {/*alert("move");*/ move=0;} else {
 console.log("anye");
 var target = e.target;
 /*if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
@@ -13,10 +13,13 @@ console.log("dnward dnw2");
 var tpp = target.parentNode.parentNode;
 for (var i =tpp.childNodes.length-1; i>=0; i--) {tpp.removeChild(tpp.childNodes[i]);}
 var script = document.createElement("script");
-script.src = target.parentNode.id+".js";
+var nw=target.parentNode.id;
+script.src=nw+".js";
 script.id="djs";
+bk.push(nw);
+document.getElementsByClassName("algnL fsr lsp03c")[0].innerHTML=nw;
 document.body.appendChild(script);
-console.log("src "+script.src);
+console.log(bk+ "bk / src "+script.src);
 }
 }}, false);
 
