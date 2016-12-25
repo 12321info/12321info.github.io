@@ -6,7 +6,13 @@ var target = e.target;
 if (target.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
-if (target.parentNode.id === 'zp00'){console.log("zp00");}
+if (target.parentNode.id === 'zp00'){
+  console.log("zp00");
+  var script = document.createElement("script");
+script.src = target.parentNode.id+".js";
+document.body.appendChild(script);
+console.log("src "+script.src);
+}
 if (target.parentNode.parentNode.className === 'dnward'){console.log("dnward");}
 if (target.parentNode.parentNode.className === 'dnward dnw2'){console.log("dnward dnw2");}
 }, false);
