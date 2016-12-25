@@ -12,12 +12,13 @@ if (target.parentNode.parentNode.className === 'dnward dnw2'){
 console.log("dnward dnw2");
 var tpp = target.parentNode.parentNode;
 for (var i =tpp.childNodes.length-1; i>=0; i--) {tpp.removeChild(tpp.childNodes[i]);}
+var djs=document.getElementById("djs"); if (djs != null){djs.parentNode.removeChild(djs);}
 var script = document.createElement("script");
-var nw=target.parentNode.id;console.log("dnward dnw2");
+var nw=target.parentNode.id;
 script.src=nw+".js";
-script.id="djs";console.log("dnward dnw2");
+script.id="djs";
 /*document.getElementsByClassName("algnL fsr lsp03c")[0].innerHTML="xxxxxx";*/
-document.body.appendChild(script);console.log("dnward dnw2");
+document.body.appendChild(script);
 console.log("src "+script.src);
 bk.push(nw);
 console.log(bk+ "bk");
