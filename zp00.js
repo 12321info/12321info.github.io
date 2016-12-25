@@ -1,9 +1,9 @@
-console.log("delay");
+console.log("delay11");
 //alert("delay1");
 var ar=[
 [0,"　上　","家（いえ）",""],["照明","Y0PO3PS082F.2X4"],["映像","ERUDE9TA71CE-"],["オーディオ","/Q2CPP36.NM9QTQ"],["家電","5UHXK7DLIPL"],["新！家電","ENXC53AO"],["家具","ULJMX/33"],["キッチン","J7527"],["水まわり","0FK1G-W-A2-78"],["子供","5RX6M"],["ペット","VW9812INT3R8.."],["植物","Z1-G133/UTR"],["小物","47U28-GMSW1"],["設備","-75R69BZ6"],["構造","FO5R7"],["街（まち）　＞","./S2W3U8","01"]
 ];
-var o=document.getElementById("d");var r=["xxxx","zp00.html"];/*window.location.href.split("/");*/
+var o=document.getElementsByClassName("dnward dnw2")[0];var r=["xxxx","zp00.html"];/*window.location.href.split("/");*/
   var l=r.length;var s="",s0="",s1=r[l-1];
   if(ar[1].length>3){var f=ar[1][3]-0;l=ar.length-1-f-1;
   s0+="<div class='algnC flrx lsp01 c0'>"+ar[0][2]+"</div><div class='algnC dn2em fsr xbd c0'>"+ar[0][3]+"</div><div class='algnC dn1em lh25 btn'>";
