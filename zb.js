@@ -6,6 +6,7 @@ var target = e.target;
 if (target.parentNode.id === 'd'){
     console.log("id d");}
 }, false);
+alert("any2");
 
 var ar=window.location.href.split('/');var l=ar.length;var s1=ar[l-1];
 var o=document.getElementById("c");
@@ -15,6 +16,7 @@ o.insertAdjacentHTML("beforeend",s0);
 var pr=[["＝運営協力「０○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝","https://google.com","＝最高協力「０○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝","https://google.co.jp"],
 ["＝運営協力「１○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝","https://google.com","＝最高協力「１○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝","https://google.co.jp"],["＝運営協力「２○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝","https://google.com","＝最高協力「２○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝","https://google.co.jp"],["＝運営協力「３○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝","https://google.com","＝最高協力「３○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝","https://google.co.jp"],["＝運営協力「４○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○○○○」様＝","https://google.com","＝最高協力「４○○○○○aaaaaaaaaaaaaaaaaaaaaaaaaaa○○」様＝","https://google.co.jp"]];
 
+alert("any25");
 var c0=s1.substring(1,2);
 if (c0>4) c0=4;
 o=document.getElementById("e");
