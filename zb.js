@@ -1,4 +1,5 @@
-console.log("any9");
+console.log("any9");alert("any9");
+
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0;
 if (istap==="touchend"){
