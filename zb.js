@@ -7,7 +7,7 @@ document.addEventListener('touchmove',function(move){move=1;});
 }
 document.addEventListener(istap,function(move) {
 if (!move) {console.log("anyi")}
-else{console.log("anye");alert("move"); move=0:}
+else{console.log("anye");alert("move"); move=0;}
 var target = e.target;
 if (target.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
