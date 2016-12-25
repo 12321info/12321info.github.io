@@ -1,4 +1,4 @@
-console.log("any2");
+console.log("any3");
 
 document.addEventListener('click', function (e) {
 console.log("any");
