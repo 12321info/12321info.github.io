@@ -3,8 +3,10 @@ console.log("any1");
 document.addEventListener('click', function (e) {
 console.log("any");
 var target = e.target;
-if (target.parentNode.parentNode.id === 'd'){
-    console.log("id d");}
+if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
+if (target.id === 'zp00'){console.log("zp00");}
+if (target.parentNode.className === 'dnward'){console.log("dnward");}
+if (target.parentNode.className === 'dnward dnw2'){console.log("dnward dnw2");}
 }, false);
 
 var ar="https://topclear.net/p0.html"/*window.location.href*/.split('/');var l=ar.length;var s1=ar[l-1];
