@@ -1,4 +1,4 @@
-console.log("any4");
+console.log("any5");
 var istap = window.ontouchstart===null?"touchstart":"click";
 document.addEventListener(istap, function (e) {
 console.log("any");
