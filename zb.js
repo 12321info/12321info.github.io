@@ -3,8 +3,8 @@ console.log("any9");alert("any11");
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0;
 if (istap==="touchend"){document.addEventListener('touchmove',function(e){move=1;});}
-document.addEventListener(istap,function(e) {if (!move) {console.log("anyi")} else {
-console.log("anye");alert("move"); move=0;
+document.addEventListener(istap,function(e) {if (move) {alert("move"); move=0;} else {
+console.log("anye");
 var target = e.target;
 /*if (target.parentNode.parentNode.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.id === 'zp00'){console.log("zp00");}*/
