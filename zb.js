@@ -1,6 +1,6 @@
 console.log("any3");
-
-document.addEventListener('click', function (e) {
+var istap = window.ontouchstart===null?"click":"touchstart";
+document.addEventListener(istap, function (e) {
 console.log("any");
 var target = e.target;
 if (target.parentNode.id === 'd'){console.log("id d");}
