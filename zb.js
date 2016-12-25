@@ -2,11 +2,11 @@ console.log("any9");
 var istap = window.ontouchstart===null?"touchend":"click";
 var move=0;
 if (istap==="touchend"){
-document.body.addEventListener('touchmove',function(e){move=1;});
+document.addEventListener('touchmove',function(move){move=1;});
 }
-document.addEventListener(istap,function(e) {
+document.addEventListener(istap,function(move) {
 if (!move) {console.log("anyi")}
-else{console.log("anye");}
+else{console.log("anye");alert("move");}
 var target = e.target;
 if (target.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
