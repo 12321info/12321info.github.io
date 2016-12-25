@@ -1,7 +1,12 @@
-console.log("any8");
+console.log("any9");
 var istap = window.ontouchstart===null?"touchend":"click";
-document.addEventListener(istap, function (e) {
-console.log("any");
+var move=0;
+if (istap==="touchend"){
+document.body.addEventListener('touchmove',function(e){move=1;});
+}
+document.addEventListener(istap,function(e) {
+if (!move) {console.log("anyi")}
+else{console.log("anye");}
 var target = e.target;
 if (target.parentNode.id === 'd'){console.log("id d");}
 if (target.parentNode.parentNode.id === 'd'){console.log("id d");}
