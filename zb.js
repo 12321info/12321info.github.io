@@ -1,4 +1,4 @@
-console.log("any7");
+console.log("any8");
 var istap = window.ontouchstart===null?"touchstart":"click";
 document.addEventListener(istap, function (e) {
 console.log("any");
@@ -12,7 +12,7 @@ if (target.parentNode.id === 'zp00'){
 if (target.parentNode.parentNode.className === 'dnward'){console.log("dnward");}
 if (target.parentNode.parentNode.className === 'dnward dnw2'){
   console.log("dnward dnw2");
-var tpp = target.parentNode.parentNode.className;
+var tpp = target.parentNode.parentNode;
 for (var i =tpp.childNodes.length-1; i>=0; i--) {tpp.removeChild(tpp.childNodes[i]);}
   var script = document.createElement("script");
 script.src = target.parentNode.id+".js";
